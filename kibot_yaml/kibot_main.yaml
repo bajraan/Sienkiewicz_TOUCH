@@ -557,11 +557,11 @@ definitions:
 
   # Metadata ===================================================================
 
-  PROJECT_NAME: Project Name
-  BOARD_NAME: Board Name
+  PROJECT_NAME: Sienkiewicz
+  BOARD_NAME: TOUCH
 
-  COMPANY: Company Name
-  DESIGNER: Author
+  COMPANY: BaJRan imgaginary industries
+  DESIGNER: Pawel Baran
 
   LOGO: 'Logos/dummy_logo.png'
   GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'
