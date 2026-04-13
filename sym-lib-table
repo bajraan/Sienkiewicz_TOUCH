@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "__Sienkiewicz")(type "KiCad")(uri "${KIPRJMOD}/__Sienkiewicz__BOARD/__Sienkiewicz.kicad_sym")(options "")(descr ""))
+)

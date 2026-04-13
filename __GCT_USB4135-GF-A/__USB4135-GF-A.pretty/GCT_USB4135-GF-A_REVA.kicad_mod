@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -3.1 -7.41 0)
+		(at 0 -7.41 0)
 		(layer "F.SilkS")
 		(uuid "68b5ad53-115a-4ae6-9c50-219920ebad4c")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "GCT_USB4135-GF-A_REVA"
-		(at 7.06 -5.425 0)
+		(at 0 -5.425 0)
 		(layer "F.Fab")
 		(uuid "39aa53a3-6b6e-43bb-9ac0-4e944ddd20c7")
 		(effects
@@ -253,7 +253,7 @@
 		(uuid "128776d6-f6c9-4069-a5db-be022228cd3d")
 	)
 	(embedded_fonts no)
-	(model "Z:/00__PROJEKTY/2025_0601_DevB__BQ24072__ATH1Q/DevB_BQ24072/__GCT_USB4135-GF-A/USB4135-GF-A_REVA.step"
+	(model "${KIPRJMOD}/__GCT_USB4135-GF-A/USB4135-GF-A_REVA.step"
 		(offset
 			(xyz 0 0 0)
 		)
