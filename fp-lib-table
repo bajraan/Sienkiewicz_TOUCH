@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "__USB4135-GF-A")(type "KiCad")(uri "${KIPRJMOD}/__GCT_USB4135-GF-A/__USB4135-GF-A.pretty")(options "")(descr ""))
+)
