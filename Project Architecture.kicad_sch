@@ -212,6 +212,26 @@
 		)
 		(uuid "f4789478-c68e-4cee-9edd-5d11b744f94d")
 	)
+	(wire
+		(pts
+			(xy 227.33 81.28) (xy 236.22 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce7d61f-a219-4851-ba74-b2736959af42")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 236.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dfc8342-78ce-4c91-9fbd-12220de00119")
+	)
 	(polyline
 		(pts
 			(xy 185.42 87.63) (xy 185.42 99.06)
@@ -252,6 +272,26 @@
 		)
 		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
+	(wire
+		(pts
+			(xy 236.22 81.28) (xy 236.22 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a31e4afa-63f3-45cc-9169-b70489c9194d")
+	)
+	(wire
+		(pts
+			(xy 223.52 106.68) (xy 223.52 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4aa33d-b5db-4a1e-9689-35dd6dda4915")
+	)
 	(sheet
 		(at 190.5 114.3)
 		(size 36.83 20.32)
@@ -278,7 +318,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section B - TItle B.kicad_sch"
+		(property "Sheetfile" "Section B - uC.kicad_sch"
 			(at 190.5 135.2046 0)
 			(effects
 				(font
@@ -286,6 +326,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VCC" input
+			(at 223.52 114.3 90)
+			(uuid "7920634d-7815-4d34-a7ad-221d23bbd14f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -322,7 +372,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
+		(property "Sheetfile" "Section A - USB connector.kicad_sch"
 			(at 190.5 97.1046 0)
 			(effects
 				(font
@@ -330,6 +380,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBUS" input
+			(at 227.33 81.28 0)
+			(uuid "796a6068-4542-44b7-bb18-1d2793b3e8e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
