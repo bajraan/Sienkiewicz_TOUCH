@@ -5,3 +5,4 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 4,2,R1 R2,1k,~,R_0805_2012Metric,"Resistor, small symbol",,,
 5,2,Rd1 Rd2,5k1,~,R_0805_2012Metric,"Resistor, small symbol",,,
 6,1,U1,ATtiny204-SS,http://ww1.microchip.com/downloads/en/DeviceDoc/50002687A.pdf,SOIC-14_3.9x8.7mm_P1.27mm,"20MHz, 2kB Flash, 128B SRAM, 64B EEPROM, SOIC-14",,,
+7,1,U2,~,,Sienkiewicz,,,,
