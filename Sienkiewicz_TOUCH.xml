@@ -56,15 +56,15 @@
 		UL94V-0 REQUIREMENTS.
 	B.	Tg 170 C OR EQUIVALENT.
 	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, 
-		HALOGEN FREE AND APPROVED BY COMPANY.
+		HALOGEN FREE AND APPROVED BY BAJRAN IMGAGINARY INDUSTRIES.
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
 	BOARD SIZE				38.000 × 38.000 mm
 	BOARD THICKNESS		1.660 mm
-	TRACE WIDTH			N/A mm
+	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		0.200 mm
-	MIN. HOLE (PTH)			0.500 mm
+	MIN. HOLE (PTH)			0.250 mm
 	MIN. HOLE (NPTH)		1.000 mm
 	ANNULAR RING			0.150 mm
 	COPPER TO HOLE		0.254 mm
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">f774e14</textvar>
+    <textvar name="GIT_HASH_PCB">56ae89a</textvar>
     <textvar name="GIT_HASH_SCH">a58dfef</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">13-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-13</textvar>
+    <textvar name="RELEASE_DATE">14-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-14</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -258,6 +258,24 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="8" name="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/">
+      <title_block>
+        <title>Touch Sensor</title>
+        <company>BaJRan imgaginary industries</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Section C - Touch sensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
     <comp ref="P1">
@@ -314,12 +332,29 @@
       <sheetpath names="/Project Architecture/Section A - USB connector/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>22b0127a-751d-4df0-9ad0-733c62211749</tstamps>
     </comp>
+    <comp ref="B1">
+      <value>BOARD_OUTLINE</value>
+      <footprint>__Sienkiewicz:Sienkiewicz</footprint>
+      <fields>
+        <field name="Footprint">__Sienkiewicz:Sienkiewicz</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="__Sienkiewicz" part="Sienkiewicz" description=""/>
+      <property name="Sheetname" value="Section B - uC"/>
+      <property name="Sheetfile" value="Section B - uC.kicad_sch"/>
+      <property name="ki_keywords" value="Sienkiewicz"/>
+      <property name="ki_fp_filters" value="Sienkiewicz*"/>
+      <sheetpath names="/Project Architecture/Section B - uC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
+      <tstamps>a546dbf7-4395-4db6-a46a-075f810ad43c</tstamps>
+    </comp>
     <comp ref="C1">
       <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="Footprint"/>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
@@ -333,13 +368,13 @@
     </comp>
     <comp ref="D1">
       <value>RED</value>
-      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <description>Diode, small symbol</description>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="Footprint">Diode_SMD:D_1206_3216Metric</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Diode, small symbol</field>
       </fields>
@@ -355,13 +390,13 @@
     </comp>
     <comp ref="D2">
       <value>RED</value>
-      <footprint>Diode_SMD:D_1206_3216Metric</footprint>
+      <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
       <description>Diode, small symbol</description>
       <fields>
         <field name="Sim.Device">D</field>
         <field name="Sim.Pins">1=K 2=A</field>
-        <field name="Footprint">Diode_SMD:D_1206_3216Metric</field>
+        <field name="Footprint">LED_SMD:LED_1206_3216Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Diode, small symbol</field>
       </fields>
@@ -448,21 +483,95 @@
       <sheetpath names="/Project Architecture/Section B - uC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
       <tstamps>300e5a7e-5a54-4709-9b60-77a0982f44eb</tstamps>
     </comp>
-    <comp ref="U2">
-      <value>BOARD_OUTLINE</value>
-      <footprint>__Sienkiewicz:Sienkiewicz</footprint>
+    <comp ref="Cd2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
       <fields>
-        <field name="Footprint">__Sienkiewicz:Sienkiewicz</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
       </fields>
-      <libsource lib="__Sienkiewicz" part="Sienkiewicz" description=""/>
-      <property name="Sheetname" value="Section B - uC"/>
-      <property name="Sheetfile" value="Section B - uC.kicad_sch"/>
-      <property name="ki_keywords" value="Sienkiewicz"/>
-      <property name="ki_fp_filters" value="Sienkiewicz*"/>
-      <sheetpath names="/Project Architecture/Section B - uC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
-      <tstamps>a546dbf7-4395-4db6-a46a-075f810ad43c</tstamps>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Section C - Touch sensor"/>
+      <property name="Sheetfile" value="Section C - Touch sensor.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/"/>
+      <tstamps>5be36fa9-5a07-443f-8d51-4ad1e4a23067</tstamps>
+    </comp>
+    <comp ref="Cs1">
+      <value>2n2</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Unpolarized capacitor, small symbol</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Unpolarized capacitor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value="Section C - Touch sensor"/>
+      <property name="Sheetfile" value="Section C - Touch sensor.kicad_sch"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/"/>
+      <tstamps>b18ce610-2208-4b00-8fb8-c62bdb79fe5b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Section C - Touch sensor"/>
+      <property name="Sheetfile" value="Section C - Touch sensor.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/"/>
+      <tstamps>5433f68b-73d5-4340-96e7-4a4ec9f71a3d</tstamps>
+    </comp>
+    <comp ref="Rs1">
+      <value>4k3</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <description>Resistor, small symbol</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0805_2012Metric</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Resistor, small symbol</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <property name="Sheetname" value="Section C - Touch sensor"/>
+      <property name="Sheetfile" value="Section C - Touch sensor.kicad_sch"/>
+      <property name="ki_keywords" value="R resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/"/>
+      <tstamps>4b5da055-e421-493f-a4e1-a1f468ad9e12</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AT42QT1012-T</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf</datasheet>
+      <description>Single-Key Touch Sensor IC, SOT-23-6</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf</field>
+        <field name="Description">Single-Key Touch Sensor IC, SOT-23-6</field>
+      </fields>
+      <libsource lib="Sensor_Touch" part="AT42QT1012-T" description="Single-Key Touch Sensor IC, SOT-23-6"/>
+      <property name="Sheetname" value="Section C - Touch sensor"/>
+      <property name="Sheetfile" value="Section C - Touch sensor.kicad_sch"/>
+      <property name="ki_keywords" value="Touch QTouch Sensor Key"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/"/>
+      <tstamps>2d4e9e3a-0999-4c24-90a2-b9db435995d0</tstamps>
     </comp>
   </components>
   <libparts>
@@ -606,6 +715,28 @@
         <pin num="14" name="GND" type="power_in"/>
       </pins>
     </libpart>
+    <libpart lib="Sensor_Touch" part="AT42QT1012-T">
+      <description>Single-Key Touch Sensor IC, SOT-23-6</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AT42QT1012-T</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf</field>
+        <field name="Description">Single-Key Touch Sensor IC, SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="SNSK" type="passive"/>
+        <pin num="4" name="SNS" type="passive"/>
+        <pin num="5" name="VDD" type="power_in"/>
+        <pin num="6" name="TIME" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="__Sienkiewicz" part="Sienkiewicz">
       <footprints>
         <fp>Sienkiewicz*</fp>
@@ -636,110 +767,133 @@
     <library logical="MCU_Microchip_ATtiny">
       <uri>/usr/share/kicad/symbols//MCU_Microchip_ATtiny.kicad_sym</uri>
     </library>
+    <library logical="Sensor_Touch">
+      <uri>/usr/share/kicad/symbols//Sensor_Touch.kicad_sym</uri>
+    </library>
     <library logical="__Sienkiewicz">
       <uri>/github/workspace/__Sienkiewicz__BOARD/__Sienkiewicz.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="/Project Architecture/Section B - uC/UPDI" class="Default">
+    <net code="1" name="/Project Architecture/Section B - uC/TT" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U2" pin="1" pinfunction="OUT" pintype="output"/>
+    </net>
+    <net code="2" name="/Project Architecture/Section B - uC/UPDI" class="Default">
       <node ref="J1" pin="4" pinfunction="SWCLK" pintype="output"/>
       <node ref="U1" pin="10" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
     </net>
-    <net code="2" name="GND" class="Default">
+    <net code="3" name="/Project Architecture/Section C - Touch sensor/TOUCH" class="Default">
+      <node ref="Rs1" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="4" name="GND" class="Default">
+      <node ref="B1" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Cd2" pin="1" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="GND" pintype="power_in"/>
       <node ref="P1" pin="A1" pinfunction="GND" pintype="passive"/>
       <node ref="P1" pin="A12" pinfunction="GND" pintype="passive"/>
       <node ref="P1" pin="B1" pinfunction="GND" pintype="passive"/>
       <node ref="P1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
       <node ref="Rd1" pin="2" pintype="passive"/>
       <node ref="Rd2" pin="2" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="GND" pintype="power_in"/>
-      <node ref="U2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="TIME" pintype="input"/>
     </net>
-    <net code="3" name="Net-(D1-A)" class="Default">
+    <net code="5" name="LED1" class="Default">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="4" name="Net-(D2-A)" class="Default">
+    <net code="6" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D2-A)" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="5" name="Net-(P1-CC)" class="Default">
+    <net code="8" name="Net-(D2-K)" class="Default">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(P1-CC)" class="Default">
       <node ref="P1" pin="A5" pinfunction="CC" pintype="bidirectional"/>
       <node ref="Rd1" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="Net-(P1-VCONN)" class="Default">
+    <net code="10" name="Net-(P1-VCONN)" class="Default">
       <node ref="P1" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
       <node ref="Rd2" pin="1" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(U1-PA2)" class="Default">
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="U1" pin="12" pinfunction="PA2" pintype="bidirectional"/>
+    <net code="11" name="Net-(U2-SNS)" class="Default">
+      <node ref="Cs1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="SNS" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(U1-PA3)" class="Default">
-      <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="U1" pin="13" pinfunction="PA3" pintype="bidirectional"/>
+    <net code="12" name="Net-(U2-SNSK)" class="Default">
+      <node ref="Cs1" pin="1" pintype="passive"/>
+      <node ref="Rs1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SNSK" pintype="passive"/>
     </net>
-    <net code="9" name="SR_CLK" class="Default">
-      <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional"/>
-      <node ref="U2" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+    <net code="13" name="SR_CLK" class="Default">
+      <node ref="B1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="10" name="SR_LATCH" class="Default">
-      <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
-      <node ref="U2" pin="5" pinfunction="LATCH" pintype="bidirectional"/>
+    <net code="14" name="SR_LATCH" class="Default">
+      <node ref="B1" pin="5" pinfunction="LATCH" pintype="bidirectional"/>
+      <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="11" name="SR_SDI" class="Default">
-      <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional"/>
-      <node ref="U2" pin="1" pinfunction="SDI" pintype="bidirectional"/>
+    <net code="15" name="SR_SDI" class="Default">
+      <node ref="B1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="12" name="VCC" class="Default">
+    <net code="16" name="VBUS" class="Default">
+      <node ref="B1" pin="2" pinfunction="VCC" pintype="power_in"/>
       <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="Cd2" pin="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="SWDIO" pintype="bidirectional"/>
       <node ref="P1" pin="A4" pinfunction="VBUS" pintype="passive"/>
       <node ref="P1" pin="A9" pinfunction="VBUS" pintype="passive"/>
       <node ref="P1" pin="B4" pinfunction="VBUS" pintype="passive"/>
       <node ref="P1" pin="B9" pinfunction="VBUS" pintype="passive"/>
       <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U2" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="13" name="unconnected-(J1-SWO-Pad6)" class="Default">
+    <net code="17" name="unconnected-(J1-SWO-Pad6)" class="Default">
       <node ref="J1" pin="6" pinfunction="SWO" pintype="input+no_connect"/>
     </net>
-    <net code="14" name="unconnected-(J1-VCC-Pad1)" class="Default">
+    <net code="18" name="unconnected-(J1-VCC-Pad1)" class="Default">
       <node ref="J1" pin="1" pinfunction="VCC" pintype="power_in+no_connect"/>
     </net>
-    <net code="15" name="unconnected-(J1-~{RESET}-Pad3)" class="Default">
+    <net code="19" name="unconnected-(J1-~{RESET}-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="~{RESET}" pintype="open_collector+no_connect"/>
     </net>
-    <net code="16" name="unconnected-(P1-D+-PadA6)" class="Default">
+    <net code="20" name="unconnected-(P1-D+-PadA6)" class="Default">
       <node ref="P1" pin="A6" pinfunction="D+" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="17" name="unconnected-(P1-D--PadA7)" class="Default">
+    <net code="21" name="unconnected-(P1-D--PadA7)" class="Default">
       <node ref="P1" pin="A7" pinfunction="D-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="18" name="unconnected-(P1-SHIELD-PadS1)" class="Default">
+    <net code="22" name="unconnected-(P1-SHIELD-PadS1)" class="Default">
       <node ref="P1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="19" name="unconnected-(U1-PA1-Pad11)" class="Default">
+    <net code="23" name="unconnected-(U1-PA1-Pad11)" class="Default">
       <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="20" name="unconnected-(U1-PA4-Pad2)" class="Default">
+    <net code="24" name="unconnected-(U1-PA3-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="PA3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(U1-PA4-Pad2)" class="Default">
       <node ref="U1" pin="2" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="21" name="unconnected-(U1-PB0-Pad9)" class="Default">
-      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    <net code="26" name="unconnected-(U1-PA5-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="22" name="unconnected-(U1-PB1-Pad8)" class="Default">
-      <node ref="U1" pin="8" pinfunction="PB1" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="23" name="unconnected-(U1-PB2-Pad7)" class="Default">
-      <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="24" name="unconnected-(U1-PB3-Pad6)" class="Default">
-      <node ref="U1" pin="6" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    <net code="27" name="unconnected-(U1-PA6-Pad4)" class="Default">
+      <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional"/>
     </net>
   </nets>
 </export>
