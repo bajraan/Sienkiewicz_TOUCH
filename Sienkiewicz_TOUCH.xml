@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">56ae89a</textvar>
+    <textvar name="GIT_HASH_PCB">4631f8a</textvar>
     <textvar name="GIT_HASH_SCH">a58dfef</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
@@ -129,7 +129,7 @@
     <textvar name="SHEET_NAME_5">Section B - uC</textvar>
     <textvar name="SHEET_NAME_6">Power - Sequencing</textvar>
     <textvar name="SHEET_NAME_7">Revision History</textvar>
-    <textvar name="SHEET_NAME_8">......................................</textvar>
+    <textvar name="SHEET_NAME_8">Section C - Touch sensor</textvar>
     <textvar name="SHEET_NAME_9">......................................</textvar>
     <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
@@ -278,23 +278,41 @@
     </sheet>
   </design>
   <components>
-    <comp ref="P1">
-      <value>USB_C_Plug_USB2.0</value>
+    <comp ref="J?">
+      <value>USB4135-GF-A_REVA</value>
       <footprint>__USB4135-GF-A:GCT_USB4135-GF-A_REVA</footprint>
-      <datasheet>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</datasheet>
-      <description>USB 2.0-only Type-C Plug connector</description>
       <fields>
+        <field name="DigiKey_Part_Number">2073-USB4135-GF-ATR-ND</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB4135-GF-A/Global+Connector+Technology/view-part/?ref=snap</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25 mm</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/USB4135-GF-A/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">A</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="MP">USB4135-GF-A</field>
+        <field name="Description_1">Type C Receptacle, Horizontal, SMT, For Power Charging Only</field>
+        <field name="MANUFACTURER">GCT</field>
         <field name="Footprint">__USB4135-GF-A:GCT_USB4135-GF-A_REVA</field>
-        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
-        <field name="Description">USB 2.0-only Type-C Plug connector</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
       </fields>
-      <libsource lib="Connector" part="USB_C_Plug_USB2.0" description="USB 2.0-only Type-C Plug connector"/>
+      <libsource lib="__GCT__USB4135-GF-A" part="USB4135-GF-A_REVA" description=""/>
+      <property name="DigiKey_Part_Number" value="2073-USB4135-GF-ATR-ND"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/USB4135-GF-A/Global+Connector+Technology/view-part/?ref=snap"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="3.25 mm"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/USB4135-GF-A/Global+Connector+Technology/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="A"/>
+      <property name="MF" value="Global Connector Technology"/>
+      <property name="MP" value="USB4135-GF-A"/>
+      <property name="Description_1" value="Type C Receptacle, Horizontal, SMT, For Power Charging Only"/>
+      <property name="MANUFACTURER" value="GCT"/>
       <property name="Sheetname" value="Section A - USB connector"/>
       <property name="Sheetfile" value="Section A - USB connector.kicad_sch"/>
-      <property name="ki_keywords" value="usb universal serial bus type-C USB2.0"/>
-      <property name="ki_fp_filters" value="USB*C*Plug*"/>
       <sheetpath names="/Project Architecture/Section A - USB connector/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
-      <tstamps>a293e210-3e01-4df4-a795-4623fd42bb8e</tstamps>
+      <tstamps>76a0e252-4645-4082-8857-1a1754474334</tstamps>
     </comp>
     <comp ref="Rd1">
       <value>5k1</value>
@@ -597,35 +615,6 @@
         <pin num="6" name="SWO" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Connector" part="USB_C_Plug_USB2.0">
-      <description>USB 2.0-only Type-C Plug connector</description>
-      <docs>https://www.usb.org/sites/default/files/documents/usb_type-c.zip</docs>
-      <footprints>
-        <fp>USB*C*Plug*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">USB_C_Plug_USB2.0</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">https://www.usb.org/sites/default/files/documents/usb_type-c.zip</field>
-        <field name="Description">USB 2.0-only Type-C Plug connector</field>
-      </fields>
-      <pins>
-        <pin num="A1" name="GND" type="passive"/>
-        <pin num="A4" name="VBUS" type="passive"/>
-        <pin num="A5" name="CC" type="bidirectional"/>
-        <pin num="A6" name="D+" type="bidirectional"/>
-        <pin num="A7" name="D-" type="bidirectional"/>
-        <pin num="A9" name="VBUS" type="passive"/>
-        <pin num="A12" name="GND" type="passive"/>
-        <pin num="B1" name="GND" type="passive"/>
-        <pin num="B4" name="VBUS" type="passive"/>
-        <pin num="B5" name="VCONN" type="bidirectional"/>
-        <pin num="B9" name="VBUS" type="passive"/>
-        <pin num="B12" name="GND" type="passive"/>
-        <pin num="S1" name="SHIELD" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Device" part="C_Small">
       <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
@@ -737,6 +726,38 @@
         <pin num="6" name="TIME" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="__GCT__USB4135-GF-A" part="USB4135-GF-A_REVA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4135-GF-A_REVA</field>
+        <field name="Footprint">__USB4135-GF-A:GCT_USB4135-GF-A_REVA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+        <field name="DigiKey_Part_Number">2073-USB4135-GF-ATR-ND</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/USB4135-GF-A/Global+Connector+Technology/view-part/?ref=snap</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.25 mm</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/USB4135-GF-A/Global+Connector+Technology/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">A</field>
+        <field name="MF">Global Connector Technology</field>
+        <field name="MP">USB4135-GF-A</field>
+        <field name="Description_1">Type C Receptacle, Horizontal, SMT, For Power Charging Only</field>
+        <field name="MANUFACTURER">GCT</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC" type="bidirectional"/>
+        <pin num="A9" name="VBUS_A" type="power_in"/>
+        <pin num="A12" name="GND_A" type="power_in"/>
+        <pin num="B5" name="VCONN" type="bidirectional"/>
+        <pin num="B9" name="VBUS_B" type="power_in"/>
+        <pin num="B12" name="GND_B" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="__Sienkiewicz" part="Sienkiewicz">
       <footprints>
         <fp>Sienkiewicz*</fp>
@@ -770,6 +791,9 @@
     <library logical="Sensor_Touch">
       <uri>/usr/share/kicad/symbols//Sensor_Touch.kicad_sym</uri>
     </library>
+    <library logical="__GCT__USB4135-GF-A">
+      <uri>/github/workspace/__GCT_USB4135-GF-A/USB4135-GF-A_REVA.kicad_sym</uri>
+    </library>
     <library logical="__Sienkiewicz">
       <uri>/github/workspace/__Sienkiewicz__BOARD/__Sienkiewicz.kicad_sym</uri>
     </library>
@@ -792,10 +816,8 @@
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="Cd2" pin="1" pintype="passive"/>
       <node ref="J1" pin="5" pinfunction="GND" pintype="power_in"/>
-      <node ref="P1" pin="A1" pinfunction="GND" pintype="passive"/>
-      <node ref="P1" pin="A12" pinfunction="GND" pintype="passive"/>
-      <node ref="P1" pin="B1" pinfunction="GND" pintype="passive"/>
-      <node ref="P1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J?" pin="A12" pinfunction="GND_A" pintype="power_in"/>
+      <node ref="J?" pin="B12" pinfunction="GND_B" pintype="power_in"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
@@ -821,78 +843,67 @@
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(P1-CC)" class="Default">
-      <node ref="P1" pin="A5" pinfunction="CC" pintype="bidirectional"/>
-      <node ref="Rd1" pin="1" pintype="passive"/>
-    </net>
-    <net code="10" name="Net-(P1-VCONN)" class="Default">
-      <node ref="P1" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
-      <node ref="Rd2" pin="1" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(U2-SNS)" class="Default">
+    <net code="9" name="Net-(U2-SNS)" class="Default">
       <node ref="Cs1" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="SNS" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(U2-SNSK)" class="Default">
+    <net code="10" name="Net-(U2-SNSK)" class="Default">
       <node ref="Cs1" pin="1" pintype="passive"/>
       <node ref="Rs1" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="SNSK" pintype="passive"/>
     </net>
-    <net code="13" name="SR_CLK" class="Default">
+    <net code="11" name="SR_CLK" class="Default">
       <node ref="B1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
       <node ref="U1" pin="6" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="14" name="SR_LATCH" class="Default">
+    <net code="12" name="SR_LATCH" class="Default">
       <node ref="B1" pin="5" pinfunction="LATCH" pintype="bidirectional"/>
       <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="15" name="SR_SDI" class="Default">
+    <net code="13" name="SR_SDI" class="Default">
       <node ref="B1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
       <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="16" name="VBUS" class="Default">
+    <net code="14" name="VBUS" class="Default">
       <node ref="B1" pin="2" pinfunction="VCC" pintype="power_in"/>
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="Cd2" pin="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="SWDIO" pintype="bidirectional"/>
-      <node ref="P1" pin="A4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="P1" pin="A9" pinfunction="VBUS" pintype="passive"/>
-      <node ref="P1" pin="B4" pinfunction="VBUS" pintype="passive"/>
-      <node ref="P1" pin="B9" pinfunction="VBUS" pintype="passive"/>
+      <node ref="J?" pin="A9" pinfunction="VBUS_A" pintype="power_in"/>
+      <node ref="J?" pin="B9" pinfunction="VBUS_B" pintype="power_in"/>
       <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U2" pin="5" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="17" name="unconnected-(J1-SWO-Pad6)" class="Default">
+    <net code="15" name="unconnected-(J1-SWO-Pad6)" class="Default">
       <node ref="J1" pin="6" pinfunction="SWO" pintype="input+no_connect"/>
     </net>
-    <net code="18" name="unconnected-(J1-VCC-Pad1)" class="Default">
+    <net code="16" name="unconnected-(J1-VCC-Pad1)" class="Default">
       <node ref="J1" pin="1" pinfunction="VCC" pintype="power_in+no_connect"/>
     </net>
-    <net code="19" name="unconnected-(J1-~{RESET}-Pad3)" class="Default">
+    <net code="17" name="unconnected-(J1-~{RESET}-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="~{RESET}" pintype="open_collector+no_connect"/>
     </net>
-    <net code="20" name="unconnected-(P1-D+-PadA6)" class="Default">
-      <node ref="P1" pin="A6" pinfunction="D+" pintype="bidirectional+no_connect"/>
+    <net code="18" name="unconnected-(Rd1-Pad1)" class="Default">
+      <node ref="J?" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
+      <node ref="Rd1" pin="1" pintype="passive"/>
     </net>
-    <net code="21" name="unconnected-(P1-D--PadA7)" class="Default">
-      <node ref="P1" pin="A7" pinfunction="D-" pintype="bidirectional+no_connect"/>
+    <net code="19" name="unconnected-(Rd2-Pad1)" class="Default">
+      <node ref="J?" pin="A5" pinfunction="CC" pintype="bidirectional"/>
+      <node ref="Rd2" pin="1" pintype="passive"/>
     </net>
-    <net code="22" name="unconnected-(P1-SHIELD-PadS1)" class="Default">
-      <node ref="P1" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
-    </net>
-    <net code="23" name="unconnected-(U1-PA1-Pad11)" class="Default">
+    <net code="20" name="unconnected-(U1-PA1-Pad11)" class="Default">
       <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="24" name="unconnected-(U1-PA3-Pad13)" class="Default">
+    <net code="21" name="unconnected-(U1-PA3-Pad13)" class="Default">
       <node ref="U1" pin="13" pinfunction="PA3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(U1-PA4-Pad2)" class="Default">
+    <net code="22" name="unconnected-(U1-PA4-Pad2)" class="Default">
       <node ref="U1" pin="2" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="26" name="unconnected-(U1-PA5-Pad3)" class="Default">
+    <net code="23" name="unconnected-(U1-PA5-Pad3)" class="Default">
       <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="27" name="unconnected-(U1-PA6-Pad4)" class="Default">
+    <net code="24" name="unconnected-(U1-PA6-Pad4)" class="Default">
       <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional"/>
     </net>
   </nets>
