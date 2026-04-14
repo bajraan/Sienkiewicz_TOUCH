@@ -3,7 +3,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 2,2,C1 Cd2,100nF,~,C_1210_3225Metric,"Unpolarized capacitor, small symbol",,,
 3,1,Cs1,2n2,~,C_0805_2012Metric,"Unpolarized capacitor, small symbol",,,
 4,2,D1 D2,RED,~,LED_1206_3216Metric,"Diode, small symbol",,,
-5,1,J?,USB4135-GF-A_REVA,,GCT_USB4135-GF-A_REVA,,GCT,,
+5,1,J2,USB4135-GF-A_REVA,,GCT_USB4135-GF-A_REVA,,GCT,,
 6,2,R1 R2,1k,~,R_0805_2012Metric,"Resistor, small symbol",,,
 7,1,R3,1M,~,R_0805_2012Metric,"Resistor, small symbol",,,
 8,2,Rd1 Rd2,5k1,~,R_0805_2012Metric,"Resistor, small symbol",,,
