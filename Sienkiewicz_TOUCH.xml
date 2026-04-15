@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">12b5439</textvar>
+    <textvar name="GIT_HASH_PCB">5ac5100</textvar>
     <textvar name="GIT_HASH_SCH">a58dfef</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">14-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-14</textvar>
+    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -868,13 +868,13 @@
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="6" name="Net-(D1-K)" class="Default">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-    </net>
-    <net code="7" name="Net-(D2-A)" class="Default">
+    <net code="6" name="LED2" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="Net-(D1-K)" class="Default">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
     </net>
     <net code="8" name="Net-(D2-K)" class="Default">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
@@ -944,10 +944,10 @@
       <node ref="U1" pin="2" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
     <net code="24" name="unconnected-(U1-PA5-Pad3)" class="Default">
-      <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
     <net code="25" name="unconnected-(U1-PA6-Pad4)" class="Default">
-      <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
 </export>
