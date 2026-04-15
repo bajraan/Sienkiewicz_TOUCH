@@ -10,7 +10,113 @@
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
-	(lib_symbols)
+	(lib_symbols
+		(symbol "__TouchPad:TouchPad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TouP"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TouchPad"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "touch pad"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "__Touch_PAD:TouchPAD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TouchPad_1_1"
+				(circle
+					(center 0 5.842)
+					(radius 2.6518)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 0 0 90)
+					(length 3.302)
+					(name "TOUCH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
 	(arc
 		(start 233.68 167.64)
 		(mid 234.4239 165.8439)
@@ -25,9 +131,9 @@
 		(uuid 182cbc88-253f-4417-821d-4bff2f5c9e55)
 	)
 	(arc
-		(start 381.02 144.76)
-		(mid 380.1249 144.3851)
-		(end 379.75 143.49)
+		(start 274.32 165.1)
+		(mid 272.5239 164.3561)
+		(end 271.78 162.56)
 		(stroke
 			(width 0)
 			(type default)
@@ -35,7 +141,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 19c30b2f-1391-4be0-8a5f-17a3226c0876)
+		(uuid 1a760ebd-1a13-485c-86b0-c38f23e0ce63)
 	)
 	(arc
 		(start 271.78 73.66)
@@ -49,6 +155,19 @@
 			(type none)
 		)
 		(uuid 22a22e6b-b94d-4ad4-b07c-4cb336b09a67)
+	)
+	(arc
+		(start 337.82 162.56)
+		(mid 337.0761 164.3561)
+		(end 335.28 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e38306a-0cf1-47c3-927c-bc8643e16bc8)
 	)
 	(arc
 		(start 195.58 162.56)
@@ -103,32 +222,6 @@
 		(uuid 53d64201-97ee-4aad-9a95-aab2b28a91d7)
 	)
 	(arc
-		(start 379.75 146.03)
-		(mid 380.1249 145.1349)
-		(end 381.02 144.76)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 5b059745-d833-4f9d-9745-ec7a90904541)
-	)
-	(arc
-		(start 379.75 154.92)
-		(mid 379.0061 156.7161)
-		(end 377.21 157.46)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 62bb3cd5-23b6-4c8e-a8f2-a293aca5d83b)
-	)
-	(arc
 		(start 165.1 165.1)
 		(mid 166.8961 165.8439)
 		(end 167.64 167.64)
@@ -142,9 +235,9 @@
 		(uuid 749e50f3-22ae-4d4d-86a8-6c5e5c26e08d)
 	)
 	(arc
-		(start 302.26 71.12)
-		(mid 300.4639 70.3761)
-		(end 299.72 68.58)
+		(start 307.34 71.12)
+		(mid 305.5439 70.3761)
+		(end 304.8 68.58)
 		(stroke
 			(width 0)
 			(type default)
@@ -155,9 +248,9 @@
 		(uuid 90ff2188-6c0c-4690-897c-cd17988e56b7)
 	)
 	(arc
-		(start 377.21 132.06)
-		(mid 379.0002 132.8098)
-		(end 379.75 134.6)
+		(start 302.26 165.1)
+		(mid 304.0561 165.8439)
+		(end 304.8 167.64)
 		(stroke
 			(width 0)
 			(type default)
@@ -165,7 +258,20 @@
 		(fill
 			(type none)
 		)
-		(uuid 94ad6bc3-4505-4c4a-89fc-83d0c51dd562)
+		(uuid b4d62fb7-9d6a-4adf-95e2-95fb2eb1b55b)
+	)
+	(arc
+		(start 304.8 167.64)
+		(mid 305.5439 165.8439)
+		(end 307.34 165.1)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5deb6d7-c841-4747-a399-0fe42274edad)
 	)
 	(arc
 		(start 167.64 167.64)
@@ -181,9 +287,9 @@
 		(uuid dd0009b3-0706-4ed7-a4af-bd3686425222)
 	)
 	(arc
-		(start 299.72 68.58)
-		(mid 298.9761 70.3761)
-		(end 297.18 71.12)
+		(start 304.8 68.58)
+		(mid 304.0561 70.3761)
+		(end 302.26 71.12)
 		(stroke
 			(width 0)
 			(type default)
@@ -194,9 +300,9 @@
 		(uuid e81fdf45-3a32-4136-be33-371a443e99cc)
 	)
 	(arc
-		(start 325.12 71.12)
-		(mid 326.9161 71.8639)
-		(end 327.66 73.66)
+		(start 335.28 71.12)
+		(mid 337.0761 71.8639)
+		(end 337.82 73.66)
 		(stroke
 			(width 0)
 			(type default)
@@ -221,7 +327,7 @@
 	)
 	(text "Page 6"
 		(exclude_from_sim no)
-		(at 299.72 101.6 0)
+		(at 304.8 104.14 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -232,9 +338,22 @@
 		)
 		(uuid "50fe988b-0945-4b5d-8e6a-b0f318e41124")
 	)
+	(text "Page 7"
+		(exclude_from_sim no)
+		(at 304.8 154.94 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 62 22 64 1)
+			)
+			(href "#7")
+		)
+		(uuid "abe2d342-83aa-4f52-8d12-2eb992b00f62")
+	)
 	(text "Page 5"
 		(exclude_from_sim no)
-		(at 233.68 101.6 0)
+		(at 233.68 104.14 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -280,29 +399,6 @@
 			(justify right top)
 		)
 		(uuid "971f0c48-6726-412d-badf-cee82cbffedd")
-	)
-	(text_box "Description"
-		(exclude_from_sim no)
-		(at 381 142.24 0)
-		(size 26.015 5.1)
-		(margins 1.4287 1.4287 1.4287 1.4287)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.905 1.905)
-				(thickness 0.381)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "97bb5e92-ab26-4907-9b80-08d49465fc86")
 	)
 	(text_box "Description"
 		(exclude_from_sim no)
@@ -354,11 +450,7 @@
 		(at 233.68 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eaf64316-3e86-498f-889f-fd339a4d50c7")
-	)
-	(no_connect
-		(at 345.44 88.9)
-		(uuid "0ccf98b2-8856-4ab9-9d8e-ba363a3d0284")
+		(uuid "157c107c-a359-46d1-a1e7-fd7cdddf5bab")
 	)
 	(polyline
 		(pts
@@ -382,13 +474,33 @@
 	)
 	(polyline
 		(pts
-			(xy 302.26 71.12) (xy 325.12 71.12)
+			(xy 307.34 71.12) (xy 335.28 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20abb4a0-6e0b-4b1c-b5aa-6fc1898b763b")
+	)
+	(wire
+		(pts
+			(xy 261.62 142.24) (xy 271.78 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26055682-90b1-4ccf-9b2a-2d2ce5cc6d53")
+	)
+	(wire
+		(pts
+			(xy 233.68 76.2) (xy 304.8 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366da7c8-821d-440f-b125-7d277d977fc1")
 	)
 	(wire
 		(pts
@@ -400,6 +512,16 @@
 		)
 		(uuid "4e60d272-d943-4d6e-afa2-05b687fced41")
 	)
+	(wire
+		(pts
+			(xy 337.82 88.9) (xy 342.9 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e6c8d95-a6f5-464a-97ed-8f46e5e8346e")
+	)
 	(polyline
 		(pts
 			(xy 231.14 165.1) (xy 208.28 165.1)
@@ -409,6 +531,26 @@
 			(type default)
 		)
 		(uuid "6cfe7e6f-9575-481c-87e6-b4be517e6a1f")
+	)
+	(wire
+		(pts
+			(xy 233.68 76.2) (xy 233.68 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7208111d-dd26-4697-a8c7-d53bd057da7c")
+	)
+	(polyline
+		(pts
+			(xy 307.34 165.1) (xy 335.28 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80dde3d6-675c-4f5e-9ef2-b2c08502a22b")
 	)
 	(polyline
 		(pts
@@ -422,26 +564,6 @@
 	)
 	(polyline
 		(pts
-			(xy 379.73 146.05) (xy 379.73 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c7de816-3d34-497f-b0c8-22f80559d2d8")
-	)
-	(wire
-		(pts
-			(xy 327.66 88.9) (xy 345.44 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6cab34-d8ad-484b-9922-a4a6c026231e")
-	)
-	(polyline
-		(pts
 			(xy 165.1 165.1) (xy 142.24 165.1)
 		)
 		(stroke
@@ -449,16 +571,6 @@
 			(type default)
 		)
 		(uuid "903e49b2-1b5d-4317-a33b-adfda1594a88")
-	)
-	(polyline
-		(pts
-			(xy 379.73 134.62) (xy 379.73 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9543d363-0f36-4c41-97bc-b97723f48818")
 	)
 	(wire
 		(pts
@@ -470,9 +582,19 @@
 		)
 		(uuid "9f1a9847-5e80-458f-8fed-90ef76134b4d")
 	)
+	(wire
+		(pts
+			(xy 261.62 137.16) (xy 271.78 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c13b406a-2a7d-49f7-b708-f041aa2438a7")
+	)
 	(polyline
 		(pts
-			(xy 297.18 71.12) (xy 274.32 71.12)
+			(xy 302.26 71.12) (xy 274.32 71.12)
 		)
 		(stroke
 			(width 0)
@@ -482,17 +604,27 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 76.2) (xy 299.72 76.2)
+			(xy 261.62 139.7) (xy 271.78 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f704e2b4-4c6e-42a5-9932-7ee02eddcd04")
+		(uuid "d81f9b97-1687-42b0-99ba-bfd680f34ad1")
+	)
+	(polyline
+		(pts
+			(xy 302.26 165.1) (xy 274.32 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e27e3254-da59-422a-bbe9-262f0b8ce1e6")
 	)
 	(wire
 		(pts
-			(xy 299.72 76.2) (xy 299.72 81.28)
+			(xy 304.8 76.2) (xy 304.8 81.28)
 		)
 		(stroke
 			(width 0)
@@ -500,19 +632,76 @@
 		)
 		(uuid "f712c144-b354-4898-930b-37a21501a823")
 	)
-	(wire
-		(pts
-			(xy 233.68 76.2) (xy 233.68 81.28)
+	(symbol
+		(lib_id "__TouchPad:TouchPad")
+		(at 342.9 88.9 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be0cde73-458b-4a2a-b967-bce27b275d50")
+		(property "Reference" "TouP1"
+			(at 353.06 87.6299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
+		(property "Value" "TouchPad"
+			(at 353.06 90.1699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
-		(uuid "f89f3a3e-fc7f-4d0c-b079-62bce9f6f82b")
+		(property "Footprint" "__Touch_PAD:TouchPAD"
+			(at 342.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 342.9 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "touch pad"
+			(at 342.9 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e86f71a-2607-4499-86e4-00aad94081e4")
+		)
+		(instances
+			(project ""
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(reference "TouP1")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet
 		(at 271.78 81.28)
-		(size 55.88 25.4)
+		(size 66.04 25.4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -522,11 +711,11 @@
 			(type solid)
 		)
 		(fill
-			(color 149 137 255 1.0000)
+			(color 183 177 255 1.0000)
 		)
 		(uuid "58275504-8283-4b66-a8f8-4d54b1bb0996")
 		(property "Sheetname" "Section C - Touch sensor"
-			(at 299.72 96.52 0)
+			(at 304.8 99.06 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -545,7 +734,7 @@
 			)
 		)
 		(pin "TOUCH" bidirectional
-			(at 327.66 88.9 0)
+			(at 337.82 88.9 0)
 			(uuid "608ab8ab-7712-461d-a7e4-d140f2ad8e20")
 			(effects
 				(font
@@ -565,7 +754,7 @@
 			)
 		)
 		(pin "VCC" input
-			(at 299.72 81.28 90)
+			(at 304.8 81.28 90)
 			(uuid "7e9a2e3e-49de-4b17-813f-0223df1ddf78")
 			(effects
 				(font
@@ -577,7 +766,80 @@
 		(instances
 			(project "Sienkiewicz_TOUCH"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "8")
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 271.78 132.08)
+		(size 66.04 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+			(color 255 61 234 1)
+		)
+		(fill
+			(color 255 196 224 1.0000)
+		)
+		(uuid "e6b5b6c2-a618-4a52-b3e4-5c8c8ccf687d")
+		(property "Sheetname" "Section D - Shift Register screw interface"
+			(at 304.8 149.86 0)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(thickness 0.381)
+					(bold yes)
+				)
+			)
+		)
+		(property "Sheetfile" "Section D - Shift Register screw interface.kicad_sch"
+			(at 271.78 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SR_CLK" input
+			(at 271.78 142.24 180)
+			(uuid "812099be-495d-4e33-a699-e5769d3346e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SR_LATCH" input
+			(at 271.78 139.7 180)
+			(uuid "1c5d1096-3dd4-4638-aec8-ed847844d6b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SR_SDI" input
+			(at 271.78 137.16 180)
+			(uuid "bb5c6517-adff-40a2-9804-eb6887fc9bad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Sienkiewicz_TOUCH"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "7")
 				)
 			)
 		)
@@ -598,7 +860,7 @@
 		)
 		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
 		(property "Sheetname" "Section B - uC"
-			(at 231.14 96.52 0)
+			(at 231.14 99.06 0)
 			(effects
 				(font
 					(size 1.905 1.905)
@@ -629,6 +891,36 @@
 		(pin "VCC" input
 			(at 233.68 81.28 90)
 			(uuid "9a28d410-a080-40c8-9cf8-1e4eb69ada6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SR_CLK" output
+			(at 261.62 142.24 0)
+			(uuid "e9996068-fffe-4b83-8910-d394db7ec3de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SR_LATCH" output
+			(at 261.62 139.7 0)
+			(uuid "e95f94d4-9edb-4330-92d6-4196a7d48169")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SR_SDI" output
+			(at 261.62 137.16 0)
+			(uuid "cc4d2ad3-0f0f-42ea-ad92-0e504c1c3210")
 			(effects
 				(font
 					(size 1.27 1.27)

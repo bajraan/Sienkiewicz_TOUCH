@@ -697,7 +697,7 @@
 	)
 	(rectangle
 		(start 60.96 48.26)
-		(end 229.87 148.59)
+		(end 185.42 148.59)
 		(stroke
 			(width 1)
 			(type default)
@@ -769,7 +769,7 @@
 	)
 	(text_box "DESIGN NOTE:\nblabla"
 		(exclude_from_sim no)
-		(at 127 129.54 0)
+		(at 119.38 124.46 0)
 		(size 21.59 15.24)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -792,7 +792,7 @@
 	)
 	(text_box "LAYOUT NOTE:\nblabla"
 		(exclude_from_sim no)
-		(at 180.34 63.5 0)
+		(at 91.44 124.46 0)
 		(size 26.67 15.24)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
@@ -818,7 +818,7 @@
 	(text_box "DESIGN NOTE:\nsense circuit\nCs [2nF - 60nF]\nRs [4k7 - 20k ]"
 		(exclude_from_sim no)
 		(at 160.02 111.76 0)
-		(size 21.59 11.43)
+		(size 20.32 11.43)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
 			(width 0.8)
