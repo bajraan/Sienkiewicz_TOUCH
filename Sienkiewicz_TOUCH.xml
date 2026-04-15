@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">5ac5100</textvar>
-    <textvar name="GIT_HASH_SCH">a58dfef</textvar>
+    <textvar name="GIT_HASH_PCB">6405aa0</textvar>
+    <textvar name="GIT_HASH_SCH">6405aa0</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -222,43 +222,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
-      <title_block>
-        <title>Power - Sequencing</title>
-        <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
-        <date>Date2</date>
-        <source>Power - Sequencing.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="7" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
-      <title_block>
-        <title>Revision History</title>
-        <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
-        <date>Date2</date>
-        <source>Revision History.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="8" name="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/">
+    <sheet number="6" name="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/">
       <title_block>
         <title>Touch Sensor</title>
         <company>BaJRan imgaginary industries</company>
@@ -276,8 +240,80 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
+    <sheet number="7" name="/Project Architecture/Section D - Shift Register screw interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e6b5b6c2-a618-4a52-b3e4-5c8c8ccf687d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Section D - Shift Register screw interface.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
+      <title_block>
+        <title>Power - Sequencing</title>
+        <company>BaJRan imgaginary industries</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Power - Sequencing.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/Revision History/" tstamps="/6e125bd6-2f99-4e5d-b3ea-4899f4540739/">
+      <title_block>
+        <title>Revision History</title>
+        <company>BaJRan imgaginary industries</company>
+        <rev>+ (Unreleased)</rev>
+        <date>Date2</date>
+        <source>Revision History.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
+    <comp ref="TouP1">
+      <value>TouchPad</value>
+      <footprint>__Touch_PAD:TouchPAD</footprint>
+      <datasheet>~</datasheet>
+      <description>touch pad</description>
+      <fields>
+        <field name="Footprint">__Touch_PAD:TouchPAD</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">touch pad</field>
+      </fields>
+      <libsource lib="__TouchPad" part="TouchPad" description="touch pad"/>
+      <property name="Sheetname" value="Project Architecture"/>
+      <property name="Sheetfile" value="Project Architecture.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="__Touch_PAD:TouchPAD"/>
+      <sheetpath names="/Project Architecture/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/"/>
+      <tstamps>be0cde73-458b-4a2a-b967-bce27b275d50</tstamps>
+    </comp>
     <comp ref="J2">
       <value>USB4135-GF-A_REVA</value>
       <footprint>__USB4135-GF-A:GCT_USB4135-GF-A_REVA</footprint>
@@ -349,22 +385,6 @@
       <property name="ki_fp_filters" value="R_*"/>
       <sheetpath names="/Project Architecture/Section A - USB connector/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
       <tstamps>22b0127a-751d-4df0-9ad0-733c62211749</tstamps>
-    </comp>
-    <comp ref="B1">
-      <value>BOARD_OUTLINE</value>
-      <footprint>__Sienkiewicz:Sienkiewicz</footprint>
-      <fields>
-        <field name="Footprint">__Sienkiewicz:Sienkiewicz</field>
-        <field name="Datasheet"/>
-        <field name="Description"/>
-      </fields>
-      <libsource lib="__Sienkiewicz" part="Sienkiewicz" description=""/>
-      <property name="Sheetname" value="Section B - uC"/>
-      <property name="Sheetfile" value="Section B - uC.kicad_sch"/>
-      <property name="ki_keywords" value="Sienkiewicz"/>
-      <property name="ki_fp_filters" value="Sienkiewicz*"/>
-      <sheetpath names="/Project Architecture/Section B - uC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
-      <tstamps>a546dbf7-4395-4db6-a46a-075f810ad43c</tstamps>
     </comp>
     <comp ref="C1">
       <value>100nF</value>
@@ -499,7 +519,7 @@
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Section B - uC/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
-      <tstamps>a08e3307-c169-4738-a831-1515a8a23884</tstamps>
+      <tstamps>b3922f7f-eb38-475f-b9aa-85eb33c168ff</tstamps>
     </comp>
     <comp ref="U1">
       <value>ATtiny204-SS</value>
@@ -608,6 +628,22 @@
       <property name="ki_fp_filters" value="SOT?23*"/>
       <sheetpath names="/Project Architecture/Section C - Touch sensor/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/58275504-8283-4b66-a8f8-4d54b1bb0996/"/>
       <tstamps>2d4e9e3a-0999-4c24-90a2-b9db435995d0</tstamps>
+    </comp>
+    <comp ref="B1">
+      <value>BOARD_OUTLINE</value>
+      <footprint>__Sienkiewicz:Sienkiewicz</footprint>
+      <fields>
+        <field name="Footprint">__Sienkiewicz:Sienkiewicz</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="__Sienkiewicz" part="Sienkiewicz" description=""/>
+      <property name="Sheetname" value="Section D - Shift Register screw interface"/>
+      <property name="Sheetfile" value="Section D - Shift Register screw interface.kicad_sch"/>
+      <property name="ki_keywords" value="Sienkiewicz"/>
+      <property name="ki_fp_filters" value="Sienkiewicz*"/>
+      <sheetpath names="/Project Architecture/Section D - Shift Register screw interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e6b5b6c2-a618-4a52-b3e4-5c8c8ccf687d/"/>
+      <tstamps>e64e3a56-6a5c-4d55-acdd-5f8f6c4d5d23</tstamps>
     </comp>
   </components>
   <libparts>
@@ -813,6 +849,23 @@
         <pin num="5" name="LATCH" type="bidirectional"/>
       </pins>
     </libpart>
+    <libpart lib="__TouchPad" part="TouchPad">
+      <description>touch pad</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>__Touch_PAD:TouchPAD</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TouP</field>
+        <field name="Value">TouchPad</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">touch pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TOUCH" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="Connector">
@@ -833,21 +886,37 @@
     <library logical="__Sienkiewicz">
       <uri>/github/workspace/__Sienkiewicz__BOARD/__Sienkiewicz.kicad_sym</uri>
     </library>
+    <library logical="__TouchPad">
+      <uri>/github/workspace/__TouchPad/__TouchPad.kicad_sym</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="/Project Architecture/Section B - uC/TT" class="Default">
+    <net code="1" name="/Project Architecture/Section B - uC/SR_CLK" class="Default">
+      <node ref="B1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="PB3" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/Project Architecture/Section B - uC/SR_LATCH" class="Default">
+      <node ref="B1" pin="5" pinfunction="LATCH" pintype="bidirectional"/>
+      <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/Project Architecture/Section B - uC/SR_SDI" class="Default">
+      <node ref="B1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/Project Architecture/Section B - uC/TT" class="Default">
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
       <node ref="U2" pin="1" pinfunction="OUT" pintype="output"/>
     </net>
-    <net code="2" name="/Project Architecture/Section B - uC/UPDI" class="Default">
+    <net code="5" name="/Project Architecture/Section B - uC/UPDI" class="Default">
       <node ref="J1" pin="4" pinfunction="SWCLK" pintype="output"/>
       <node ref="U1" pin="10" pinfunction="~{RESET}/PA0" pintype="bidirectional"/>
     </net>
-    <net code="3" name="/Project Architecture/Section C - Touch sensor/TOUCH" class="Default">
-      <node ref="Rs1" pin="2" pintype="passive+no_connect"/>
+    <net code="6" name="/Project Architecture/Section C - Touch sensor/TOUCH" class="Default">
+      <node ref="Rs1" pin="2" pintype="passive"/>
+      <node ref="TouP1" pin="1" pinfunction="TOUCH" pintype="passive"/>
     </net>
-    <net code="4" name="GND" class="Default">
+    <net code="7" name="GND" class="Default">
       <node ref="B1" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="Cd2" pin="1" pintype="passive"/>
@@ -864,53 +933,40 @@
       <node ref="U2" pin="2" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="6" pinfunction="TIME" pintype="input"/>
     </net>
-    <net code="5" name="LED1" class="Default">
+    <net code="8" name="LED1" class="Default">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="6" name="LED2" class="Default">
+    <net code="9" name="LED2" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="7" name="Net-(D1-K)" class="Default">
+    <net code="10" name="Net-(D1-K)" class="Default">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="8" name="Net-(D2-K)" class="Default">
+    <net code="11" name="Net-(D2-K)" class="Default">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="9" name="Net-(J2-CC)" class="Default">
+    <net code="12" name="Net-(J2-CC)" class="Default">
       <node ref="J2" pin="A5" pinfunction="CC" pintype="bidirectional"/>
       <node ref="Rd2" pin="1" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(J2-VCONN)" class="Default">
+    <net code="13" name="Net-(J2-VCONN)" class="Default">
       <node ref="J2" pin="B5" pinfunction="VCONN" pintype="bidirectional"/>
       <node ref="Rd1" pin="1" pintype="passive"/>
     </net>
-    <net code="11" name="Net-(U2-SNS)" class="Default">
+    <net code="14" name="Net-(U2-SNS)" class="Default">
       <node ref="Cs1" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="SNS" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(U2-SNSK)" class="Default">
+    <net code="15" name="Net-(U2-SNSK)" class="Default">
       <node ref="Cs1" pin="1" pintype="passive"/>
       <node ref="Rs1" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="SNSK" pintype="passive"/>
     </net>
-    <net code="13" name="SR_CLK" class="Default">
-      <node ref="B1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
-      <node ref="U1" pin="6" pinfunction="PB3" pintype="bidirectional"/>
-    </net>
-    <net code="14" name="SR_LATCH" class="Default">
-      <node ref="B1" pin="5" pinfunction="LATCH" pintype="bidirectional"/>
-      <node ref="U1" pin="7" pinfunction="PB2" pintype="bidirectional"/>
-    </net>
-    <net code="15" name="SR_SDI" class="Default">
-      <node ref="B1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
-      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
-    </net>
-    <net code="16" name="VCC" class="Default">
-      <node ref="B1" pin="2" pinfunction="VCC" pintype="power_in"/>
+    <net code="16" name="VBUS" class="Default">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="Cd2" pin="2" pintype="passive"/>
       <node ref="J1" pin="2" pinfunction="SWDIO" pintype="bidirectional"/>
@@ -919,34 +975,37 @@
       <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U2" pin="5" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="17" name="unconnected-(J1-SWO-Pad6)" class="Default">
+    <net code="17" name="VCC" class="Default">
+      <node ref="B1" pin="2" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="18" name="unconnected-(J1-SWO-Pad6)" class="Default">
       <node ref="J1" pin="6" pinfunction="SWO" pintype="input+no_connect"/>
     </net>
-    <net code="18" name="unconnected-(J1-VCC-Pad1)" class="Default">
+    <net code="19" name="unconnected-(J1-VCC-Pad1)" class="Default">
       <node ref="J1" pin="1" pinfunction="VCC" pintype="power_in+no_connect"/>
     </net>
-    <net code="19" name="unconnected-(J1-~{RESET}-Pad3)" class="Default">
+    <net code="20" name="unconnected-(J1-~{RESET}-Pad3)" class="Default">
       <node ref="J1" pin="3" pinfunction="~{RESET}" pintype="open_collector+no_connect"/>
     </net>
-    <net code="20" name="unconnected-(J2-SHIELD-PadS1)" class="Default">
+    <net code="21" name="unconnected-(J2-SHIELD-PadS1)" class="Default">
       <node ref="J2" pin="S1" pinfunction="SHIELD" pintype="passive+no_connect"/>
       <node ref="J2" pin="S2" pinfunction="SHIELD" pintype="passive+no_connect"/>
       <node ref="J2" pin="S3" pinfunction="SHIELD" pintype="passive+no_connect"/>
       <node ref="J2" pin="S4" pinfunction="SHIELD" pintype="passive+no_connect"/>
     </net>
-    <net code="21" name="unconnected-(U1-PA1-Pad11)" class="Default">
+    <net code="22" name="unconnected-(U1-PA1-Pad11)" class="Default">
       <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="22" name="unconnected-(U1-PA3-Pad13)" class="Default">
+    <net code="23" name="unconnected-(U1-PA3-Pad13)" class="Default">
       <node ref="U1" pin="13" pinfunction="PA3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="23" name="unconnected-(U1-PA4-Pad2)" class="Default">
+    <net code="24" name="unconnected-(U1-PA4-Pad2)" class="Default">
       <node ref="U1" pin="2" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="24" name="unconnected-(U1-PA5-Pad3)" class="Default">
+    <net code="25" name="unconnected-(U1-PA5-Pad3)" class="Default">
       <node ref="U1" pin="3" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="25" name="unconnected-(U1-PA6-Pad4)" class="Default">
+    <net code="26" name="unconnected-(U1-PA6-Pad4)" class="Default">
       <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
   </nets>
