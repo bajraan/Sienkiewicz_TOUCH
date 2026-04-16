@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">6405aa0</textvar>
+    <textvar name="GIT_HASH_PCB">2b597c7</textvar>
     <textvar name="GIT_HASH_SCH">6405aa0</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">15-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-15</textvar>
+    <textvar name="RELEASE_DATE">16-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-16</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -127,10 +127,10 @@
     <textvar name="SHEET_NAME_4">Section A - USB connector</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
     <textvar name="SHEET_NAME_5">Section B - uC</textvar>
-    <textvar name="SHEET_NAME_6">Power - Sequencing</textvar>
-    <textvar name="SHEET_NAME_7">Revision History</textvar>
-    <textvar name="SHEET_NAME_8">Section C - Touch sensor</textvar>
-    <textvar name="SHEET_NAME_9">......................................</textvar>
+    <textvar name="SHEET_NAME_6">Section C - Touch sensor</textvar>
+    <textvar name="SHEET_NAME_7">Section D - Shift Register screw interface</textvar>
+    <textvar name="SHEET_NAME_8">Power - Sequencing</textvar>
+    <textvar name="SHEET_NAME_9">Revision History</textvar>
     <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -242,10 +242,10 @@
     </sheet>
     <sheet number="7" name="/Project Architecture/Section D - Shift Register screw interface/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e6b5b6c2-a618-4a52-b3e4-5c8c8ccf687d/">
       <title_block>
-        <title/>
+        <title>Shift Register screw interface</title>
         <company/>
         <rev/>
-        <date/>
+        <date>Date2</date>
         <source>Section D - Shift Register screw interface.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
