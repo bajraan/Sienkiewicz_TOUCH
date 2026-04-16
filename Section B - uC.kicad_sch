@@ -1652,7 +1652,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 78.74) (xy 71.12 78.74)
+			(xy 66.04 78.74) (xy 71.12 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 83.82) (xy 71.12 83.82)
+			(xy 66.04 83.82) (xy 71.12 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1742,7 +1742,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 71.12 81.28)
+			(xy 66.04 81.28) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1772,13 +1772,23 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 76.2) (xy 71.12 76.2)
+			(xy 66.04 76.2) (xy 71.12 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "de007b60-502c-4f85-9758-bf4b6e34d7bf")
+	)
+	(label "SR_LATCH"
+		(at 66.04 81.28 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a4f102b-c8ed-49ba-b32d-71bb92191fb6")
 	)
 	(label "UPDI"
 		(at 106.68 76.2 0)
@@ -1789,6 +1799,26 @@
 			(justify left bottom)
 		)
 		(uuid "417d8247-e526-41f8-acde-daa533fa324d")
+	)
+	(label "SR_SDI"
+		(at 66.04 76.2 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "9baae544-ca18-4628-a1b0-514499bf52f1")
+	)
+	(label "SR_CLK"
+		(at 66.04 83.82 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "b3692a41-34eb-413a-8eae-34a2e6478447")
 	)
 	(global_label "LED2"
 		(shape input)
@@ -1858,7 +1888,7 @@
 	)
 	(global_label "LED1"
 		(shape input)
-		(at 68.58 78.74 180)
+		(at 66.04 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1868,7 +1898,7 @@
 		)
 		(uuid "e9c9fea4-2978-404e-8f48-df26bda02c6a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 60.9382 78.74 0)
+			(at 58.3982 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1880,7 +1910,7 @@
 	)
 	(hierarchical_label "SR_LATCH"
 		(shape output)
-		(at 68.58 81.28 180)
+		(at 66.04 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1913,7 +1943,7 @@
 	)
 	(hierarchical_label "SR_CLK"
 		(shape output)
-		(at 68.58 83.82 180)
+		(at 66.04 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1924,7 +1954,7 @@
 	)
 	(hierarchical_label "SR_SDI"
 		(shape output)
-		(at 68.58 76.2 180)
+		(at 66.04 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
