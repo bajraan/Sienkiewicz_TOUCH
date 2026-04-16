@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 1.0
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -518,7 +518,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -536,7 +535,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -554,7 +552,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -572,7 +569,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -590,7 +586,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -608,7 +603,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -626,7 +620,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -644,7 +637,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -662,7 +654,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -680,7 +671,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -856,6 +846,14 @@
       {
         "netclass": "Power 5V",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "VCC"
       }
     ]
   },
@@ -1047,7 +1045,7 @@
     "BOARD_NAME": "TOUCH",
     "COMPANY": "BaJRan imgaginary industries",
     "DESIGNER": "Pawel Baran",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY BAJRAN IMGAGINARY INDUSTRIES.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t38.000 \u00d7 38.000 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t1.000 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY BAJRAN IMGAGINARY INDUSTRIES.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t38.000 × 38.000 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t0.200 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t1.000 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
     "GIT_HASH_PCB": "6405aa0",
     "GIT_HASH_SCH": "6405aa0",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",

@@ -2,6 +2,5 @@
   (version 7)
   (lib (name "__USB4135-GF-A")(type "KiCad")(uri "${KIPRJMOD}/__GCT_USB4135-GF-A/__USB4135-GF-A.pretty")(options "")(descr ""))
   (lib (name "__Sienkiewicz")(type "KiCad")(uri "${KIPRJMOD}/__Sienkiewicz__BOARD/__Sienkiewicz.pretty")(options "")(descr ""))
-  (lib (name "__TEST")(type "KiCad")(uri "D:/00__PROJEKTY/05 LIBRARY KiCAD/GTC USB4135-GF-A/__GCT_USB4135-GF-A/__USB4135-GF-A.pretty")(options "")(descr ""))
-  (lib (name "__Touch_PAD")(type "KiCad")(uri "${KIPRJMOD}/__Touch_PAD.pretty")(options "")(descr ""))
+  (lib (name "__Touch_PAD")(type "KiCad")(uri "${KIPRJMOD}/__TouchPad/__Touch_PAD.pretty")(options "")(descr ""))
 )
