@@ -1,7 +1,7 @@
 Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number
 1,1,B1,BOARD_OUTLINE,,Sienkiewicz,,,,
-2,2,C1 Cd2,100nF,~,C_1210_3225Metric,"Unpolarized capacitor, small symbol",,,
-3,2,Cb1 Cb2,1u/16V,~,C_0805_2012Metric,Unpolarized capacitor,,,
+2,2,Cb1 Cb2,1u/16V,~,C_0805_2012Metric,Unpolarized capacitor,,,
+3,2,Cd1 Cd2,100nF,~,C_1210_3225Metric,"Unpolarized capacitor, small symbol",,,
 4,1,Cs1,2n2,~,C_0805_2012Metric,"Unpolarized capacitor, small symbol",,,
 5,2,D1 D2,RED,~,LED_1206_3216Metric,"Diode, small symbol",,,
 6,1,J2,USB4135-GF-A_REVA,,GCT_USB4135-GF-A_REVA,,GCT,,
