@@ -450,7 +450,7 @@
 		(at 233.68 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "157c107c-a359-46d1-a1e7-fd7cdddf5bab")
+		(uuid "ac94b49a-0a94-4013-a86a-d7d457626ad6")
 	)
 	(polyline
 		(pts
@@ -504,13 +504,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 76.2) (xy 233.68 76.2)
+			(xy 304.8 76.2) (xy 304.8 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e60d272-d943-4d6e-afa2-05b687fced41")
+		(uuid "5ac7828d-3de1-4e99-bdb4-b4f9f7a42ced")
 	)
 	(wire
 		(pts
@@ -592,6 +592,16 @@
 		)
 		(uuid "c13b406a-2a7d-49f7-b708-f041aa2438a7")
 	)
+	(wire
+		(pts
+			(xy 167.64 76.2) (xy 233.68 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0ea290a-a351-400a-b4b4-77aaf5fb1d2d")
+	)
 	(polyline
 		(pts
 			(xy 302.26 71.12) (xy 274.32 71.12)
@@ -622,15 +632,15 @@
 		)
 		(uuid "e27e3254-da59-422a-bbe9-262f0b8ce1e6")
 	)
-	(wire
-		(pts
-			(xy 304.8 76.2) (xy 304.8 81.28)
+	(label "VCC"
+		(at 167.64 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f712c144-b354-4898-930b-37a21501a823")
+		(uuid "410ddae7-3db2-4c71-880f-99b5face292c")
 	)
 	(symbol
 		(lib_id "__TouchPad:TouchPad")
@@ -970,9 +980,9 @@
 				(justify left top)
 			)
 		)
-		(pin "VBUS" input
+		(pin "VCC" input
 			(at 167.64 81.28 90)
-			(uuid "796a6068-4542-44b7-bb18-1d2793b3e8e8")
+			(uuid "5ec5be0c-cca9-4e38-85b7-2dc42cf1a691")
 			(effects
 				(font
 					(size 1.27 1.27)
