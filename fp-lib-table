@@ -3,4 +3,5 @@
   (lib (name "__USB4135-GF-A")(type "KiCad")(uri "${KIPRJMOD}/__GCT_USB4135-GF-A/__USB4135-GF-A.pretty")(options "")(descr ""))
   (lib (name "__Sienkiewicz")(type "KiCad")(uri "${KIPRJMOD}/__Sienkiewicz__BOARD/__Sienkiewicz.pretty")(options "")(descr ""))
   (lib (name "__Touch_PAD")(type "KiCad")(uri "${KIPRJMOD}/__TouchPad/__Touch_PAD.pretty")(options "")(descr ""))
+  (lib (name "__QR__Github.Sienkiewicz_TOUCH")(type "KiCad")(uri "${KIPRJMOD}/__QR/__QR__Github.Sienkiewicz_TOUCH.pretty")(options "")(descr ""))
 )

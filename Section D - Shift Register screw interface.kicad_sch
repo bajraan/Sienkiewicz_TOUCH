@@ -905,7 +905,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" "OK"
+		(property "BOM_STATUS" "N/A"
 			(at 144.78 86.36 0)
 			(effects
 				(font

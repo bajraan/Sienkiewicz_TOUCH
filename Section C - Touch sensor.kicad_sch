@@ -4051,7 +4051,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" "TME have"
+		(property "BOM_INFO" "TME BOX"
 			(at 132.08 91.44 0)
 			(effects
 				(font
@@ -4140,7 +4140,7 @@
 				)
 			)
 		)
-		(property "Value" "4k3"
+		(property "Value" "5k1"
 			(at 160.02 86.36 90)
 			(effects
 				(font
@@ -4175,7 +4175,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "TME BOX 25.06.2025"
 			(at 160.02 88.9 90)
 			(effects
 				(font
@@ -4184,7 +4184,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 160.02 88.9 90)
 			(effects
 				(font
@@ -4287,7 +4287,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "TME BOX "
 			(at 119.38 101.6 90)
 			(effects
 				(font
@@ -4296,7 +4296,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 119.38 101.6 90)
 			(effects
 				(font
@@ -4399,7 +4399,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "TME BOX"
 			(at 144.78 101.6 90)
 			(effects
 				(font
@@ -4408,7 +4408,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 144.78 101.6 90)
 			(effects
 				(font
@@ -4511,7 +4511,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "AIDATEK A0"
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -4520,7 +4520,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -4653,7 +4653,7 @@
 				)
 			)
 		)
-		(property "Value" "2n2"
+		(property "Value" "2n7"
 			(at 154.94 86.36 0)
 			(effects
 				(font
@@ -4688,7 +4688,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "TME BOX"
 			(at 154.94 91.44 0)
 			(effects
 				(font
@@ -4697,7 +4697,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 154.94 91.44 0)
 			(effects
 				(font

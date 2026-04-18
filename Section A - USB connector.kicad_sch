@@ -3613,7 +3613,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "TME BOX 25.06.2025"
 			(at 127 104.14 90)
 			(effects
 				(font
@@ -3622,7 +3622,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 127 104.14 90)
 			(effects
 				(font
@@ -3991,7 +3991,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" "TME have"
+		(property "BOM_INFO" "TME BOX"
 			(at 106.68 76.2 0)
 			(effects
 				(font
@@ -4215,7 +4215,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "TME BOX"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -4224,7 +4224,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 101.6 106.68 0)
 			(effects
 				(font
@@ -4351,7 +4351,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" "TME have"
+		(property "BOM_INFO" "TME BOX"
 			(at 96.52 76.2 0)
 			(effects
 				(font
@@ -4731,7 +4731,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_INFO" ""
+		(property "BOM_INFO" "TME BOX 25.06.2025"
 			(at 127 109.22 90)
 			(effects
 				(font
@@ -4740,7 +4740,7 @@
 				(hide yes)
 			)
 		)
-		(property "BOM_STATUS" ""
+		(property "BOM_STATUS" "OK"
 			(at 127 109.22 90)
 			(effects
 				(font
