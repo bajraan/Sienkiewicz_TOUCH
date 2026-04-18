@@ -1192,7 +1192,7 @@
 	)
 	(text "www.usb.org/sites/default/files/USB%20Type-C%20Spec%20R2.0%20-%20August%202019.pdf"
 		(exclude_from_sim no)
-		(at 190.5 134.62 0)
+		(at 190.5 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1246,7 +1246,7 @@
 	(text_box "DESIGN NOTE:\nCb1, Cb2\nbulk capacitor"
 		(exclude_from_sim no)
 		(at 149.86 45.72 0)
-		(size 81.28 40.64)
+		(size 81.28 45.72)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
 			(width 0.8)
@@ -1269,7 +1269,7 @@
 	(text_box "LAYOUT NOTE:\nblablabla"
 		(exclude_from_sim no)
 		(at 22.86 162.56 0)
-		(size 81.28 12.7)
+		(size 30.48 12.7)
 		(margins 1.4525 1.4525 1.4525 1.4525)
 		(stroke
 			(width 1)
@@ -1316,7 +1316,7 @@
 	)
 	(text_box "DESIGN NOTE:\nPer USB-IF specification, a sink role is established by placing 5.1 kΩ pull-down (Rd) resistors on CC1 and CC2."
 		(exclude_from_sim no)
-		(at 149.86 88.9 0)
+		(at 149.86 93.98 0)
 		(size 81.28 43.18)
 		(margins 1.3525 1.3525 1.3525 1.3525)
 		(stroke
@@ -1344,10 +1344,16 @@
 		(uuid "07479a7c-0673-4f6f-9dcd-cb50afc538a5")
 	)
 	(junction
-		(at 132.08 134.62)
+		(at 129.54 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "15befcc8-c968-4811-bbd6-545d3052998b")
+		(uuid "212c35ed-a3c1-43b4-b75d-b54f46feaf91")
+	)
+	(junction
+		(at 129.54 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c95e1ae-3581-423c-8edf-7d3121254b2e")
 	)
 	(junction
 		(at 104.14 81.28)
@@ -1384,12 +1390,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc356c6c-9454-44af-b061-d839b9183567")
-	)
-	(junction
-		(at 132.08 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5097c6a-0de1-4e6c-9fd8-cadf55c02b60")
 	)
 	(no_connect
 		(at 93.98 129.54)
@@ -1448,16 +1448,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 134.62 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "300ce2de-05bb-497a-971e-071e7c515adf")
-	)
-	(wire
-		(pts
 			(xy 119.38 109.22) (xy 124.46 109.22)
 		)
 		(stroke
@@ -1468,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 134.62) (xy 132.08 134.62)
+			(xy 104.14 134.62) (xy 129.54 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1568,17 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 81.28) (xy 134.62 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "807047a2-ca59-4478-9341-d8d602571fd5")
-	)
-	(wire
-		(pts
-			(xy 132.08 78.74) (xy 132.08 81.28)
+			(xy 129.54 76.2) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1586,9 +1566,19 @@
 		)
 		(uuid "83a88b23-8c5e-448f-b296-f0d9fd1951e7")
 	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8495c5af-fda8-4c49-8598-178ba7b368aa")
+	)
 	(polyline
 		(pts
-			(xy 139.7 99.06) (xy 149.86 88.9)
+			(xy 139.7 99.06) (xy 149.86 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1606,6 +1596,16 @@
 			(type default)
 		)
 		(uuid "9a6d1ffd-1673-4d86-b5ad-9fbb548dec07")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 134.62 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3a7fa9-db09-465f-b044-19a024437dcd")
 	)
 	(wire
 		(pts
@@ -1629,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 81.28) (xy 132.08 81.28)
+			(xy 106.68 81.28) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 134.62) (xy 132.08 137.16)
+			(xy 129.54 134.62) (xy 129.54 139.7)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1688,7 @@
 		(uuid "f6faa251-b23a-4a84-9bfd-e8ea16ee296a")
 	)
 	(image
-		(at 190.5 114.3)
+		(at 190.5 119.38)
 		(scale 1.12101)
 		(uuid "3d2031ce-dd42-4b76-b08c-b1d9642a115c")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAu4AAAFECAYAAAB4crvfAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -2503,7 +2503,7 @@
 		)
 	)
 	(image
-		(at 190.5 66.04)
+		(at 187.96 71.12)
 		(scale 1.19126)
 		(uuid "ccc21f24-8531-47ee-9286-c6ba77ca2b70")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAtcAAAFqCAYAAADRMnZrAAAABHNCSVQICAgIfAhkiAAAIABJREFU"
@@ -3613,6 +3613,51 @@
 				(hide yes)
 			)
 		)
+		(property "BOM_INFO" ""
+			(at 127 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_STATUS" ""
+			(at 127 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 127 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 127 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 127 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "01a2195f-486f-4f81-a31e-b9f1279d6d37")
 		)
@@ -3697,7 +3742,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 132.08 137.16 180)
+		(at 129.54 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3705,7 +3750,7 @@
 		(dnp no)
 		(uuid "3696e1e3-35c1-4c65-bf13-554193d2ff6d")
 		(property "Reference" "#FLG02"
-			(at 132.08 139.065 0)
+			(at 129.54 141.605 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3714,7 +3759,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 132.08 142.24 0)
+			(at 129.54 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,7 +3767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 137.16 0)
+			(at 129.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3776,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 137.16 0)
+			(at 129.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3740,7 +3785,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 137.16 0)
+			(at 129.54 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3946,6 +3991,51 @@
 				(hide yes)
 			)
 		)
+		(property "BOM_INFO" "TME have"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_STATUS" "OK"
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 106.68 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89a343e6-52b4-426e-acf5-a77fff09ca47")
 		)
@@ -4125,6 +4215,51 @@
 				(hide yes)
 			)
 		)
+		(property "BOM_INFO" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_STATUS" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 101.6 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B5"
 			(uuid "c828a37f-66a7-44f0-89aa-f63255ae00d5")
 		)
@@ -4208,6 +4343,51 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_INFO" "TME have"
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_STATUS" "OK"
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 96.52 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 96.52 76.2 0)
 			(effects
 				(font
@@ -4551,6 +4731,51 @@
 				(hide yes)
 			)
 		)
+		(property "BOM_INFO" ""
+			(at 127 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_STATUS" ""
+			(at 127 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 127 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 127 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 127 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2ca4ee50-8a6f-4a09-8a1f-cc4c82bfb8d4")
 		)
@@ -4568,7 +4793,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 132.08 78.74 0)
+		(at 129.54 76.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4576,7 +4801,7 @@
 		(dnp no)
 		(uuid "df728da0-6eae-4f6f-b309-7fe32313f01a")
 		(property "Reference" "#FLG01"
-			(at 132.08 76.835 0)
+			(at 129.54 74.295 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4585,7 +4810,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 132.08 73.66 0)
+			(at 129.54 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +4818,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 78.74 0)
+			(at 129.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4827,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 78.74 0)
+			(at 129.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4836,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 132.08 78.74 0)
+			(at 129.54 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
