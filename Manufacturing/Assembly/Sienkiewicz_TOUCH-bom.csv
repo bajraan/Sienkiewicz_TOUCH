@@ -1,15 +1,14 @@
 Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufacturer,Manufacturer Part Number,Supplier Part Number,BOM_STATUS,BOM_INFO
-1,1,B1,BOARD_OUTLINE,,Sienkiewicz,,,,,OK,N/A
-2,2,Cb1 Cb2,1u/16V,~,C_0805_2012Metric,Unpolarized capacitor,,,,OK,TME have
-3,2,Cd1 Cd2,100nF,~,C_1210_3225Metric,"Unpolarized capacitor, small symbol",,,,,
-4,1,Cs1,2n2,~,C_0805_2012Metric,"Unpolarized capacitor, small symbol",,,,,
-5,2,D1 D2,RED,~,LED_1206_3216Metric,"Diode, small symbol",,,,,
-6,1,J2,USB4135-GF-A_REVA,,GCT_USB4135-GF-A_REVA,,GCT,,,,
-7,2,R1 R2,1k,~,R_0805_2012Metric,"Resistor, small symbol",,,,,
-8,2,Rd1 Rd2,5k1,~,R_0805_2012Metric,"Resistor, small symbol",,,,,
-9,1,Rm1,1M,~,R_0805_2012Metric,"Resistor, small symbol",,,,,
-10,1,Rop1,100k,~,R_0805_2012Metric,"Resistor, small symbol",,,,,
-11,1,Rs1,4k3,~,R_0805_2012Metric,"Resistor, small symbol",,,,,
-12,1,TouP1,TouchPad,~,TouchPAD,touch pad,,,,OK,N/A
-13,1,U2,AT42QT1012-T,http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf,SOT-23-6,"Single-Key Touch Sensor IC, SOT-23-6",,,,OK,TME have
-14,1,U1,ATtiny204-SS,http://ww1.microchip.com/downloads/en/DeviceDoc/50002687A.pdf,SOIC-14_3.9x8.7mm_P1.27mm,"20MHz, 2kB Flash, 128B SRAM, 64B EEPROM, SOIC-14",,,,OK,TME have
+1,1,B1,BOARD_OUTLINE,,Sienkiewicz,,,,,N/A,N/A
+2,2,Cb1 Cb2,1u/16V,~,C_0805_2012Metric,Unpolarized capacitor,,,,OK,TME BOX
+3,2,Cd1 Cd2,100nF,~,C_1210_3225Metric,"Unpolarized capacitor, small symbol",,,,OK,AIDATEK A0
+4,1,Cs1,2n7,~,C_0805_2012Metric,"Unpolarized capacitor, small symbol",,,,OK,TME BOX
+5,2,D1 D2,RED,~,LED_1206_3216Metric,"Diode, small symbol",,,,OK,AIDATEK A0
+6,1,J2,USB4135-GF-A_REVA,,GCT_USB4135-GF-A_REVA,,GCT,,,OK,TME BOX
+7,2,R1 R2,1k,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,AIDATEK A0
+8,3,Rd1 Rd2 Rs1,5k1,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,TME BOX 25.06.2025
+9,1,Rm1,1M,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,TME BOX
+10,1,Rop1,100k,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,TME BOX
+11,1,TouP1,TouchPad,~,TouchPAD,touch pad,,,,N/A,N/A
+12,1,U2,AT42QT1012-T,http://ww1.microchip.com/downloads/en/DeviceDoc/40001948A.pdf,SOT-23-6,"Single-Key Touch Sensor IC, SOT-23-6",,,,OK,TME BOX
+13,1,U1,ATtiny204-SS,http://ww1.microchip.com/downloads/en/DeviceDoc/50002687A.pdf,SOIC-14_3.9x8.7mm_P1.27mm,"20MHz, 2kB Flash, 128B SRAM, 64B EEPROM, SOIC-14",,,,OK,AIDATEK A1
