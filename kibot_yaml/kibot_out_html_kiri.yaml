@@ -13,7 +13,7 @@ outputs:
   layers: all
   options:
     keep_generated: true
-    max_commits: 3
+    max_commits: 20
     revision: 'HEAD'
     zones: 'global'
 
