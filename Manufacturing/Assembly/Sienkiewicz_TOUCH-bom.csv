@@ -5,7 +5,7 @@ Row,Quantity Per PCB,References,Value,Datasheet,Footprint,Description,Manufactur
 4,1,Cs1,2n7,~,C_0805_2012Metric,"Unpolarized capacitor, small symbol",,,,OK,TME BOX
 5,2,D1 D2,RED,~,LED_1206_3216Metric,"Diode, small symbol",,,,OK,AIDATEK A0
 6,1,J2,USB4135-GF-A_REVA,,GCT_USB4135-GF-A_REVA,,GCT,,,OK,TME BOX
-7,2,R1 R2,1k,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,AIDATEK A0
+7,3,R1 R2 R3,1k,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,AIDATEK A0
 8,3,Rd1 Rd2 Rs1,5k1,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,TME BOX 25.06.2025
 9,1,Rm1,1M,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,TME BOX
 10,1,Rop1,100k,~,R_0805_2012Metric,"Resistor, small symbol",,,,OK,TME BOX
