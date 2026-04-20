@@ -1652,6 +1652,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 81.28) (xy 71.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869d7545-9e9c-44c9-b495-359b9d50daf6")
+	)
+	(wire
+		(pts
 			(xy 185.42 68.58) (xy 185.42 71.12)
 		)
 		(stroke
@@ -1732,16 +1742,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 81.28) (xy 66.04 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be884f62-08c2-49ae-abad-8719cad14d36")
-	)
-	(wire
-		(pts
 			(xy 64.77 78.74) (xy 71.12 78.74)
 		)
 		(stroke
@@ -1749,6 +1749,16 @@
 			(type default)
 		)
 		(uuid "cc0e722c-1aa1-4ecc-a153-9f8fe49a85c7")
+	)
+	(wire
+		(pts
+			(xy 55.88 81.28) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc1565e9-595c-405b-96c2-d26d2b782529")
 	)
 	(wire
 		(pts
@@ -2672,6 +2682,16 @@
 		)
 		(uuid "417d8247-e526-41f8-acde-daa533fa324d")
 	)
+	(label "TT_uC"
+		(at 66.04 81.28 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify left bottom)
+		)
+		(uuid "86834dea-f284-4ddb-8834-bb3196a68ddb")
+	)
 	(label "SR_SDI"
 		(at 109.22 78.74 180)
 		(effects
@@ -2793,7 +2813,7 @@
 	)
 	(hierarchical_label "TT"
 		(shape input)
-		(at 66.04 81.28 180)
+		(at 55.88 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3160,6 +3180,118 @@
 			(project ""
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 60.96 81.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3127881b-25bb-478c-a257-178c6781fca6")
+		(property "Reference" "R3"
+			(at 58.42 83.82 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 63.5 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 60.96 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_INFO" "AIDATEK A0"
+			(at 60.96 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "BOM_STATUS" "OK"
+			(at 60.96 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 60.96 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 60.96 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9dba3866-343f-4f59-838b-aaa6f983bf4f")
+		)
+		(pin "2"
+			(uuid "d19df40e-8c5c-4da0-93bb-94f5e52142a0")
+		)
+		(instances
+			(project "Sienkiewicz_TOUCH"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
+					(reference "R3")
 					(unit 1)
 				)
 			)

@@ -1132,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 119.38 93.98)
+			(xy 101.6 93.98) (xy 119.38 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3923,7 +3923,7 @@
 	)
 	(hierarchical_label "TT"
 		(shape output)
-		(at 109.22 93.98 180)
+		(at 101.6 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
