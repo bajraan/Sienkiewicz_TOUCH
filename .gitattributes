@@ -1,12 +1,3 @@
-
-*.csv merge=ours
-*.html merge=ours
-*.xml merge=ours
-*.net merge=ours
-
-*.pdf binary
-*.gbr binary
-*.gbrjob binary*.csv filter=bom_csv
 *.csv filter=bom_csv
 *.html filter=bom_html
 *.gbr filter=gerber
