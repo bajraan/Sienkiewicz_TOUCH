@@ -5,3 +5,12 @@
 *.xml filter=xml
 *.kicad_pcb filter=kicad_pcb_f
 *.net filter=net_filter
+
+*.csv merge=ours
+*.html merge=ours
+*.xml merge=ours
+*.net merge=ours
+
+*.pdf binary
+*.gbr binary
+*.gbrjob binary
