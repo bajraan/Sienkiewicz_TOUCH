@@ -1,2 +1,21 @@
 _local_|2026-04-24|root|Local changes not committed|False|True
-17675f6|2026-04-24|bajraan|Update Outputs|True|True
+6563119|2026-04-24|GitHub Actions|Update Outputs (release)|False|True
+be35797|2026-04-24|bajran|moved the label to force push from local repo|True|False
+48d7015|2026-04-24|bajran|VCC and GND chierarchical labels added|True|False
+1ec3846|2026-04-24|bajran|[pcb] checked|True|False
+f8524e9|2026-04-24|bajran|file refresh|False|True
+1ca1cd4|2026-04-24|bajran|[pcb] board outline/connection changed / back compatibility not possible|True|True
+05546b5|2026-04-20|bajran|[sch] added R3 to prevent high current drain from cap touch chip|True|True
+6c64101|2026-04-18|bajran|bom update, qr-code added|True|True
+114b74e|2026-04-18|bajran|[CFG] Configuration update, added bom information fields|True|False
+3e59012|2026-04-17|bajran|refresh|False|True
+452c8d7|2026-04-17|bajran|screw interface update - changed pinout|True|True
+edd84a5|2026-04-16|bajran|[sch] update touch sensor section|True|True
+2b597c7|2026-04-16|bajran|minor updates of shematic and pcb and touch pad library|True|True
+6405aa0|2026-04-15|bajran|touch pad library creation|True|True
+5ac5100|2026-04-15|bajran|led1,led2 better documented|True|True
+12b5439|2026-04-14|bajran|pcb update|True|True
+4631f8a|2026-04-14|bajran|pcb update|True|True
+56ae89a|2026-04-14|bajran|board updatea|True|True
+f774e14|2026-04-13|bajran|sienkiewicz library missing value update|True|True
+8ae634a|2026-04-13|bajran|schematic file names changed|True|False
