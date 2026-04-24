@@ -1,4 +1,5 @@
 _local_|2026-04-24|root|Local changes not committed|False|True
+0d9fde7|2026-04-24|bajran|descriptions on the board update|False|True
 6563119|2026-04-24|GitHub Actions|Update Outputs (release)|False|True
 be35797|2026-04-24|bajran|moved the label to force push from local repo|True|False
 48d7015|2026-04-24|bajran|VCC and GND chierarchical labels added|True|False
@@ -18,4 +19,3 @@ edd84a5|2026-04-16|bajran|[sch] update touch sensor section|True|True
 4631f8a|2026-04-14|bajran|pcb update|True|True
 56ae89a|2026-04-14|bajran|board updatea|True|True
 f774e14|2026-04-13|bajran|sienkiewicz library missing value update|True|True
-8ae634a|2026-04-13|bajran|schematic file names changed|True|False
