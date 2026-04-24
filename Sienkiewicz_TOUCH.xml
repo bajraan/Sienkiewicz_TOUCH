@@ -74,15 +74,19 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">f8524e9</textvar>
-    <textvar name="GIT_HASH_SCH">6405aa0</textvar>
+    <textvar name="GIT_HASH_PCB">17675f6</textvar>
+    <textvar name="GIT_HASH_SCH">17675f6</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
     <textvar name="RELEASE_BODY_1.0.1"/>
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
-    <textvar name="RELEASE_BODY_2.0.0">Version 2.0.0 not found.</textvar>
+    <textvar name="RELEASE_BODY_2.0.0">___________________________________
+
+Added
+
+-   First 2.0.0 Version of pcb and schematic</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">24-Apr-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-04-24</textvar>
@@ -90,9 +94,9 @@
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
-    <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 not found.</textvar>
+    <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-04-24</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">+ (Unreleased)</textvar>
+    <textvar name="REVISION"/>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -133,12 +137,12 @@
     <textvar name="SHEET_NAME_7">Section D - Shift Register screw interface</textvar>
     <textvar name="SHEET_NAME_8">Power - Sequencing</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Sienkiewicz_TOUCH.kicad_sch</source>
         <comment number="1" value=""/>
@@ -156,7 +160,7 @@
       <title_block>
         <title>Block Diagram</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -174,7 +178,7 @@
       <title_block>
         <title>Project Architecture</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -192,7 +196,7 @@
       <title_block>
         <title>USB connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Section A - USB connector.kicad_sch</source>
         <comment number="1" value=""/>
@@ -210,7 +214,7 @@
       <title_block>
         <title>uC &amp; prog connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Section B - uC.kicad_sch</source>
         <comment number="1" value=""/>
@@ -228,7 +232,7 @@
       <title_block>
         <title>Touch Sensor</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Section C - Touch sensor.kicad_sch</source>
         <comment number="1" value=""/>
@@ -264,7 +268,7 @@
       <title_block>
         <title>Power - Sequencing</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -282,7 +286,7 @@
       <title_block>
         <title>Revision History</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>+ (Unreleased)</rev>
+        <rev/>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
