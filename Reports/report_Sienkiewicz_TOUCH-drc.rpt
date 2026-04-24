@@ -1,0 +1,64 @@
+** Drc report for Sienkiewicz_TOUCH.kicad_pcb **
+** Created on 2026-04-24T12:25:38+0000 **
+
+** Found 17 DRC violations **
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(142.5 mm, 102.5 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(154.5 mm, 105.5 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'SOIC-14_3.9x8.7mm_P1.27mm' does not match copy in library 'Package_SO'.
+    ; warning
+    @(161.5 mm, 90.0 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(141.0 mm, 78.5 mm): Footprint Cb2
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(137.0 mm, 93.0 mm): Footprint Rm1
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(142.5 mm, 100.5 mm): Footprint Rop1
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(141.0 mm, 74.5 mm): Footprint Rd2
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(156.0 mm, 74.5 mm): Footprint Rd1
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(161.5 mm, 83.0 mm): Footprint Cd1
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(156.0 mm, 78.5 mm): Footprint Cb1
+[lib_footprint_mismatch]: Footprint 'LED_1206_3216Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(142.5 mm, 105.5 mm): Footprint D2
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(133.5 mm, 86.0 mm): Footprint Cd2
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(137.0 mm, 95.0 mm): Footprint Rs1
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(154.5 mm, 102.5 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(133.5 mm, 93.0 mm): Footprint Cs1
+[lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(154.5 mm, 100.5 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'SOT-23-6' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(133.5 mm, 90.0 mm): Footprint U2
+
+** Found 0 unconnected pads **
+
+** Found 1 Footprint errors **
+[extra_footprint]: Extra footprint
+    ; warning
+    @(148.5 mm, 75.0 mm): Footprint REF**
+
+** End of Report **

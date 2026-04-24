@@ -1174,6 +1174,7 @@
     "RELEASE_BODY_1.0.1": "",
     "RELEASE_BODY_1.0.2": "",
     "RELEASE_BODY_1.1.0": "",
+    "RELEASE_BODY_2.0.0": "Version 2.0.0 not found.",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
     "RELEASE_DATE": "24-Apr-2026",
     "RELEASE_DATE_NUM": "2026-04-24",
@@ -1181,6 +1182,7 @@
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
     "RELEASE_TITLE_1.1.0": "",
+    "RELEASE_TITLE_2.0.0": "Version 2.0.0 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
@@ -1223,6 +1225,6 @@
     "SHEET_NAME_7": "Section D - Shift Register screw interface",
     "SHEET_NAME_8": "Power - Sequencing",
     "SHEET_NAME_9": "Revision History",
-    "VARIANT": "PRELIMINARY"
+    "VARIANT": "CHECKED"
   }
 }

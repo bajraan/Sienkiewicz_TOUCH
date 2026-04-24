@@ -1,0 +1,17 @@
+ERC report (2026-04-24T12:25:37+0000, Encoding UTF8)
+
+***** Sheet /
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/Section A - USB connector/
+***** Sheet /Project Architecture/Section B - uC/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(1.4224 mm, 0.7874 mm): Symbol J1 Pin 2 [SWDIO, Bidirectional, Line]
+    @(1.2954 mm, 0.762 mm): Symbol #FLG01 Pin 1 [Power output, Line]
+
+***** Sheet /Project Architecture/Section C - Touch sensor/
+***** Sheet /Project Architecture/Section D - Shift Register screw interface/
+***** Sheet /Power - Sequencing/
+***** Sheet /Revision History/
+ ** ERC messages: 1  Errors 0  Warnings 1
