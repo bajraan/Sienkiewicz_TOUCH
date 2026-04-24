@@ -1582,7 +1582,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 78.74) (xy 109.22 78.74)
+			(xy 71.12 76.2) (xy 63.5 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1672,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 76.2) (xy 71.12 76.2)
+			(xy 107.95 78.74) (xy 101.6 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2693,22 +2693,22 @@
 		(uuid "86834dea-f284-4ddb-8834-bb3196a68ddb")
 	)
 	(label "SR_SDI"
-		(at 109.22 78.74 180)
-		(effects
-			(font
-				(size 0.508 0.508)
-			)
-			(justify right bottom)
-		)
-		(uuid "9baae544-ca18-4628-a1b0-514499bf52f1")
-	)
-	(label "SR_CLK"
-		(at 66.04 76.2 0)
+		(at 63.5 76.2 0)
 		(effects
 			(font
 				(size 0.508 0.508)
 			)
 			(justify left bottom)
+		)
+		(uuid "9baae544-ca18-4628-a1b0-514499bf52f1")
+	)
+	(label "SR_CLK"
+		(at 106.68 78.74 180)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+			(justify right bottom)
 		)
 		(uuid "b3692a41-34eb-413a-8eae-34a2e6478447")
 	)
@@ -2835,23 +2835,23 @@
 	)
 	(hierarchical_label "SR_CLK"
 		(shape output)
-		(at 64.77 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "90a5e5e4-f407-4f5f-9879-50370ef69459")
-	)
-	(hierarchical_label "SR_SDI"
-		(shape output)
-		(at 109.22 78.74 0)
+		(at 107.95 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "90a5e5e4-f407-4f5f-9879-50370ef69459")
+	)
+	(hierarchical_label "SR_SDI"
+		(shape output)
+		(at 63.5 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "b5aa9255-b6bd-4547-9076-d63b9e18d8b7")
 	)
