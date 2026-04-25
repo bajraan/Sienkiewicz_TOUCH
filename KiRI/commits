@@ -1,4 +1,5 @@
 _local_|2026-04-25|root|Local changes not committed|False|True
+318c1b1|2026-04-25|bajran|[pcb] fabrication layers update|False|True
 74f1f5e|2026-04-25|bajran|[pcb] silkscreen, version bump to 2.0.1|False|True
 c38b55f|2026-04-25|bajran|silkscreen, centered LATCH outlie on screw connector|False|True
 7961147|2026-04-25|GitHub Actions|Update Outputs (release)|False|True
@@ -18,4 +19,3 @@ f8524e9|2026-04-24|bajran|file refresh|False|True
 edd84a5|2026-04-16|bajran|[sch] update touch sensor section|True|True
 2b597c7|2026-04-16|bajran|minor updates of shematic and pcb and touch pad library|True|True
 6405aa0|2026-04-15|bajran|touch pad library creation|True|True
-5ac5100|2026-04-15|bajran|led1,led2 better documented|True|True
