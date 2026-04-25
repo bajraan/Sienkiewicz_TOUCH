@@ -11884,7 +11884,7 @@
 			)
 		)
 	)
-	(gr_text "HW:2.0.0"
+	(gr_text "HW:2.0.1"
 		(at 154.5 87 90)
 		(layer "F.SilkS")
 		(uuid "43a4d1c2-5a7d-4abc-ba1a-070baed615f5")
