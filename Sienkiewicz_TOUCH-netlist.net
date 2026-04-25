@@ -1,6 +1,6 @@
 (export (version "E")
   (design
-    (source "/tmp/tmp-kibot-net_sch_print-m429o1st/Sienkiewicz_TOUCH.kicad_sch")
+    (source "/tmp/tmp-kibot-net_sch_print-l107dpiy/Sienkiewicz_TOUCH.kicad_sch")
     (date "Date")
     (tool "Eeschema 9.0.7+1")
     (textvar (name "ASSEMBLY_NOTES") "ASSEMBLY NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	DO NOT POPULATE PARTS ARE MARKED WITH A RED CROSS.\n\n2)	DO NOT POPULATE PARTS ARE NOT PRESENT IN THE BOM.\n\n3)	IF CONFLICTING INFORMATION IS FOUND BETWEEN THE ASSEMBLY\n	FILE AND BOM, BOM SHOULD BE USED AS THE MAIN SOURCE.\n\n4)	CONFORMAL COATING IS NOT REQUIRED.\n\n5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION\n	WHEN VIEWED FROM THE TOP.")
@@ -18,8 +18,8 @@
     (textvar (name "RELEASE_BODY_1.1.0"))
     (textvar (name "RELEASE_BODY_2.0.0") "___________________________________\n\nAdded\n\n-   First 2.0.0 Version of pcb and schematic")
     (textvar (name "RELEASE_BODY_UNRELEASED") "Version Unreleased not found.")
-    (textvar (name "RELEASE_DATE") "24-Apr-2026")
-    (textvar (name "RELEASE_DATE_NUM") "2026-04-24")
+    (textvar (name "RELEASE_DATE") "25-Apr-2026")
+    (textvar (name "RELEASE_DATE_NUM") "2026-04-25")
     (textvar (name "RELEASE_TITLE_1.0.0"))
     (textvar (name "RELEASE_TITLE_1.0.1"))
     (textvar (name "RELEASE_TITLE_1.0.2"))
