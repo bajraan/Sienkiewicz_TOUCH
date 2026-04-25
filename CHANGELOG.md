@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.0.2] - 2026-04-25
+
 ### Changed
 
 -   Modified silkscreen look
@@ -19,7 +21,9 @@
 
 -   First 2.0.0 Version of pcb and schematic
 
-[Unreleased]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.1...HEAD
+[Unreleased]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.2...HEAD
+
+[2.0.2]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.1...2.0.2
 
 [2.0.1]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.0...2.0.1
 
