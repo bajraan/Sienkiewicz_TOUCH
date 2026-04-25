@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+### Changed
+
+-   Modified silkscreen look
+-   Fabrication layers update
+
 ## [2.0.1] - 2026-04-25
 
 ### Changed

@@ -146,8 +146,8 @@
 	(property "COMPANY" "BaJRan imgaginary industries")
 	(property "DESIGNER" "Pawel Baran")
 	(property "FABRICATION_NOTES" "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)	FABRICATE PER IPC-6012A CLASS 2.\n\n2)	OUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n	\"Edge_Cuts.GBR\" SUFFIX.\n\n	DIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n	DRAWING FOR REFERENCE ONLY.\n\n3)	SEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n	FOR HOLE LOCATIONS.\n\n	SELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n	FOR REFERENCE ONLY.\n\n4)	SURFACE FINISH: IMMERSION GOLD\n\n5)	SOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n	BE LPI, COLOR BLACK.\n\n6)	SILK SCREEN LEGEND TO BE APPLIED PER LAYER \n	STACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)	ALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n	SOLDERMASK OPENED IN GERBER.\n\n8)	VENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n	AND Pb FREE FOR MANUFACTURING\n\n9)	PCB MATERIAL REQUIREMENTS:\n\n	A.	FLAMMABILITY RATING MUST MEET OR EXCEED \n		UL94V-0 REQUIREMENTS.\n	B.	Tg 170 C OR EQUIVALENT.\n	C.	EQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n		HALOGEN FREE AND APPROVED BY BAJRAN IMGAGINARY INDUSTRIES.\n\n10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n	BOARD SIZE				38.000 × 38.000 mm\n	BOARD THICKNESS		1.660 mm\n	TRACE WIDTH			0.200 mm\n	TRACE TO TRACE		-0.000 mm\n	MIN. HOLE (PTH)			0.250 mm\n	MIN. HOLE (NPTH)		1.000 mm\n	ANNULAR RING			0.150 mm\n	COPPER TO HOLE		0.254 mm\n	COPPER TO EDGE		0.250 mm\n	HOLE TO HOLE			0.254 mm\n\n11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)	CONFIRM SPACE WIDTHS AND SPACINGS.")
-	(property "GIT_HASH_PCB" "161f76b")
-	(property "GIT_HASH_SCH" "161f76b")
+	(property "GIT_HASH_PCB" "318c1b1")
+	(property "GIT_HASH_SCH" "6405aa0")
 	(property "GIT_URL" "https://github.com/nguyen-v/KDT_Hierarchical_KiBot")
 	(property "PROJECT_NAME" "Sienkiewicz")
 	(property "RELEASE_BODY_1.0.0" "")
@@ -166,7 +166,7 @@
 	(property "RELEASE_TITLE_2.0.0" "Version 2.0.0 - 2026-04-24")
 	(property "RELEASE_TITLE_2.0.1" "Version 2.0.1 - 2026-04-25")
 	(property "RELEASE_TITLE_UNRELEASED" "Version Unreleased not found.")
-	(property "REVISION" "2.0.1")
+	(property "REVISION" "2.0.1+ (Unreleased)")
 	(property "SHEET_NAME_1" "Cover Page")
 	(property "SHEET_NAME_10" "......................................")
 	(property "SHEET_NAME_11" "......................................")
@@ -207,7 +207,7 @@
 	(property "SHEET_NAME_7" "Section D - Shift Register screw interface")
 	(property "SHEET_NAME_8" "Power - Sequencing")
 	(property "SHEET_NAME_9" "Revision History")
-	(property "VARIANT" "RELEASED")
+	(property "VARIANT" "CHECKED")
 	(net 0 "")
 	(net 1 "GND")
 	(net 2 "/Project Architecture/Section B - uC/UPDI")
@@ -10533,19 +10533,19 @@
 		(descr "Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf")
 		(tags "tag connect programming header pogo pins")
 		(property "Reference" "J1"
-			(at -5.5 0 0)
+			(at -6 0 0)
 			(layer "B.SilkS")
 			(uuid "34060886-4ac5-4cc8-bca1-b9867d178b3d")
 			(effects
 				(font
-					(size 0.8 0.8)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "TC2030-NL"
-			(at 0 2.5 0)
+			(at 0 -3.5 0)
 			(layer "B.Fab")
 			(uuid "12733401-a2b2-4b27-bc0a-037e82c20eda")
 			(effects
@@ -10731,7 +10731,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3 -1.5 180)
+			(at -6 0 180)
 			(layer "B.Fab")
 			(uuid "1e353403-903d-48cd-b841-19289ff7f4d9")
 			(effects
@@ -11885,7 +11885,7 @@
 			)
 		)
 	)
-	(gr_text "HW:2.0.1"
+	(gr_text "HW:2.0.2"
 		(at 154.5 87 90)
 		(layer "F.SilkS")
 		(uuid "43a4d1c2-5a7d-4abc-ba1a-070baed615f5")
