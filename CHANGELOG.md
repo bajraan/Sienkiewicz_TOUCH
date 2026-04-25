@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### Changed
+
+- Modified silkscreen look, by adding bigger QR-code. small rearangment.
+
 ## [2.0.0] - 2026-04-24
 
 ### Added
