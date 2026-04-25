@@ -256,7 +256,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at -2.5 0 0)
+			(at 3 0 0)
 			(layer "F.Fab")
 			(uuid "9ac9fc01-624a-447c-abeb-74f7d8159f04")
 			(effects
@@ -520,7 +520,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at -3 0 90)
+			(at 2.5 2.5 180)
 			(layer "F.Fab")
 			(uuid "349bf079-ab2c-4ff0-9468-a5c1841bd250")
 			(effects
@@ -821,7 +821,7 @@
 		(descr "SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 3.5 5.5 0)
+			(at 3.5 5.5 90)
 			(layer "F.SilkS")
 			(uuid "893aed3d-71a0-486b-b55f-0f56072b3438")
 			(effects
@@ -832,7 +832,7 @@
 			)
 		)
 		(property "Value" "ATtiny204-SS"
-			(at 5 0 90)
+			(at 5 1.5 90)
 			(layer "F.Fab")
 			(uuid "cbe12bad-5c10-4475-b453-740a4d9445af")
 			(effects
@@ -1322,7 +1322,7 @@
 			)
 		)
 		(property "Value" "1u/16V"
-			(at 1.5 -4.5 180)
+			(at 0 4 180)
 			(layer "F.Fab")
 			(uuid "88dc12e8-f0eb-4265-9a3c-7925f7f21ee6")
 			(effects
@@ -1586,7 +1586,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 2.5 1.25 180)
+			(at -3 0 270)
 			(layer "F.Fab")
 			(uuid "19bf970c-481d-4d1e-a065-186f2dbcbe29")
 			(effects
@@ -1754,7 +1754,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 6.5 0 0)
+			(at 3.5 -1.5 0)
 			(layer "F.Fab")
 			(uuid "bd0b5a64-f689-4a67-9150-169283a5cfb7")
 			(effects
@@ -2007,7 +2007,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "Rop1"
-			(at 0 2 0)
+			(at 2.5 1 90)
 			(layer "F.SilkS")
 			(uuid "0d13a499-99d7-4b3d-8901-400421f919e4")
 			(effects
@@ -2018,7 +2018,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at -3.5 2.5 180)
+			(at -3.5 0 180)
 			(layer "F.Fab")
 			(uuid "533b8fdf-c4ec-4329-8c34-baa82ab4ca5a")
 			(effects
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at -2.5 3 0)
+			(at 0 3 0)
 			(layer "F.Fab")
 			(uuid "973707bf-59de-4dcc-8544-a955b030d670")
 			(effects
@@ -2546,7 +2546,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at -2.5 -3 0)
+			(at 0 -3 0)
 			(layer "F.Fab")
 			(uuid "e93358a8-3cd5-4921-bc53-fa5400551dec")
 			(effects
@@ -5652,7 +5652,7 @@
 			)
 		)
 		(property "Value" "1u/16V"
-			(at 1.5 4.5 180)
+			(at 0 -4.5 180)
 			(layer "F.Fab")
 			(uuid "dfe130c6-afcc-40f8-a229-cb4395c37849")
 			(effects
@@ -5916,7 +5916,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at -3 0 90)
+			(at -2.5 2.5 180)
 			(layer "F.Fab")
 			(uuid "7f935d87-6071-423c-acd0-4f97fbfa68d5")
 			(effects
@@ -6492,7 +6492,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 6.5 0 0)
+			(at 3.5 1.5 0)
 			(layer "F.Fab")
 			(uuid "f61870b6-7d4b-458a-87d3-5bf46cf81eb4")
 			(effects
@@ -6756,7 +6756,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at -2.5 0 180)
+			(at -3 0 180)
 			(layer "F.Fab")
 			(uuid "2d8dc5c5-bcb1-49ea-8d73-21a5f0c5a798")
 			(effects
@@ -7010,7 +7010,7 @@
 			(at 0 -17 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "df7c0c5a-b096-48b3-a5be-81b6c332128a")
+			(uuid "b7346d12-33da-41fc-8025-31d148083dfe")
 			(effects
 				(font
 					(size 1 1)
@@ -7023,7 +7023,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bc45583d-056f-4b45-a82b-b79f06a96257")
+			(uuid "c26a4957-1815-409e-87de-45e17a8bcfbb")
 			(effects
 				(font
 					(size 1 1)
@@ -7036,7 +7036,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "662ab69d-d3cc-41f3-8ca4-293324ade22f")
+			(uuid "9c9d9d76-3995-4821-83bc-5fadfe78d25b")
 			(effects
 				(font
 					(size 1 1)
@@ -7049,7 +7049,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23586ce6-033b-4439-a129-2e03c34ce435")
+			(uuid "d9dcd28d-f735-44ef-b386-0a907355d100")
 			(effects
 				(font
 					(size 1 1)
@@ -8256,7 +8256,7 @@
 			)
 		)
 		(property "Value" "2n7"
-			(at -3 -2.5 90)
+			(at 0 3 180)
 			(layer "F.Fab")
 			(uuid "d76e4953-8cdf-48a5-a872-0943ee9f8030")
 			(effects
@@ -8509,7 +8509,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 2.5 2 90)
+			(at 2.5 2 270)
 			(layer "F.SilkS")
 			(uuid "747ac79c-475f-4d1f-948b-0d399fb95174")
 			(effects
@@ -8520,7 +8520,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 3.5 0)
+			(at -3 0 0)
 			(layer "F.Fab")
 			(uuid "86dca500-d603-477e-8494-103fbe3c24c7")
 			(effects
@@ -8771,7 +8771,7 @@
 		(uuid "e3a9f5dd-57d3-4be0-ac57-f7f5a55f2550")
 		(at 148.5 74 180)
 		(property "Reference" "J2"
-			(at 6 -2 0)
+			(at 5.5 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "b1500086-4004-4ad6-98ff-a4a4453f1a12")
 			(effects
@@ -8781,8 +8781,8 @@
 				)
 			)
 		)
-		(property "Value" "USB4135-GF-A_REVA"
-			(at 0 -8 0)
+		(property "Value" "USB4135-GF-A"
+			(at 0 -5.5 0)
 			(layer "F.Fab")
 			(uuid "dfc2065b-e57f-4be9-8dcf-2e54edb240a5")
 			(effects
@@ -9290,7 +9290,7 @@
 				)
 			)
 		)
-		(property "Value" "AT42QT1012-T"
+		(property "Value" "AT42QT1012"
 			(at 5 -4 270)
 			(layer "F.Fab")
 			(uuid "39b25e47-c863-45bc-b214-7f54b34f5734")
@@ -9702,9 +9702,10 @@
 			)
 		)
 		(property "Value" "TouchPad"
-			(at 3 0 0)
+			(at -4.5 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
+			(hide yes)
 			(uuid "fb23c1da-1710-4632-80cf-5dab61b4c6a7")
 			(effects
 				(font
@@ -9818,7 +9819,7 @@
 		(sheetfile "Project Architecture.kicad_sch")
 		(attr smd)
 		(fp_text user "${REFERENCE}"
-			(at 3 0 0)
+			(at -4 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(uuid "9fc128a2-cdcf-4a64-bc84-7ee46181e985")
@@ -10543,8 +10544,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
-			(at 0 -3.5 0)
+		(property "Value" "TC2030-NL"
+			(at 0 2.5 0)
 			(layer "B.Fab")
 			(uuid "12733401-a2b2-4b27-bc0a-037e82c20eda")
 			(effects
@@ -10730,7 +10731,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3 -1 90)
+			(at -3 -1.5 180)
 			(layer "B.Fab")
 			(uuid "1e353403-903d-48cd-b841-19289ff7f4d9")
 			(effects
