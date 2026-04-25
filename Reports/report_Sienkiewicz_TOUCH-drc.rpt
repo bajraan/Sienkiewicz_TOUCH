@@ -1,5 +1,5 @@
 ** Drc report for Sienkiewicz_TOUCH.kicad_pcb **
-** Created on 2026-04-25T08:34:29+0000 **
+** Created on 2026-04-25T09:45:42+0000 **
 
 ** Found 17 DRC violations **
 [lib_footprint_mismatch]: Footprint 'R_0805_2012Metric' does not match copy in library 'Resistor_SMD'.
@@ -56,7 +56,16 @@
 
 ** Found 0 unconnected pads **
 
-** Found 1 Footprint errors **
+** Found 4 Footprint errors **
+[footprint_symbol_mismatch]: Value (J2) doesn't match symbol value (USB4135-GF-A).
+    ; warning
+    @(148.5 mm, 74.0 mm): Footprint J2
+[footprint_symbol_mismatch]: Value (J1) doesn't match symbol value (TC2030-NL).
+    ; warning
+    @(148.5 mm, 105.5 mm): Footprint J1
+[footprint_symbol_mismatch]: Value (U2) doesn't match symbol value (AT42QT1012).
+    ; warning
+    @(133.5 mm, 90.0 mm): Footprint U2
 [extra_footprint]: Extra footprint
     ; warning
     @(148.5 mm, 75.0 mm): Footprint REF**

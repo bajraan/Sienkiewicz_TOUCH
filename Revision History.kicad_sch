@@ -78,9 +78,9 @@
 		)
 		(uuid "212b625e-4169-46f2-a2fc-afc6cbef07cd")
 	)
-	(text_box "${RELEASE_TITLE_1.0.2}"
+	(text_box "${RELEASE_TITLE_2.0.2}"
 		(exclude_from_sim no)
-		(at 152.4 31.75 0)
+		(at 20.32 88.9 0)
 		(size 57.15 7.62)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -101,10 +101,10 @@
 		)
 		(uuid "61447e65-3862-4ca7-a61e-5d8506cb38bb")
 	)
-	(text_box "${RELEASE_BODY_1.0.2}"
+	(text_box "${RELEASE_BODY_2.0.2}"
 		(exclude_from_sim no)
-		(at 154.94 35.56 0)
-		(size 58.42 111.76)
+		(at 22.86 93.98 0)
+		(size 58.42 93.98)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
@@ -126,7 +126,7 @@
 	(text_box "${RELEASE_BODY_2.0.1}"
 		(exclude_from_sim no)
 		(at 22.86 63.5 0)
-		(size 123.19 77.47)
+		(size 60.96 22.86)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
