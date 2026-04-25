@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">0d9fde7</textvar>
-    <textvar name="GIT_HASH_SCH">6405aa0</textvar>
+    <textvar name="GIT_HASH_PCB">161f76b</textvar>
+    <textvar name="GIT_HASH_SCH">161f76b</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -87,7 +87,11 @@
 Added
 
 -   First 2.0.0 Version of pcb and schematic</textvar>
-    <textvar name="RELEASE_BODY_2.0.1">Version 2.0.1 not found.</textvar>
+    <textvar name="RELEASE_BODY_2.0.1">___________________________________
+
+Changed
+
+-   Modified silkscreen look, by adding bigger QR-code. small rearangment.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">25-Apr-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-04-25</textvar>
@@ -96,9 +100,9 @@ Added
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-04-24</textvar>
-    <textvar name="RELEASE_TITLE_2.0.1">Version 2.0.1 not found.</textvar>
+    <textvar name="RELEASE_TITLE_2.0.1">Version 2.0.1 - 2026-04-25</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.0.0+ (Unreleased)</textvar>
+    <textvar name="REVISION">2.0.1</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -139,12 +143,12 @@ Added
     <textvar name="SHEET_NAME_7">Section D - Shift Register screw interface</textvar>
     <textvar name="SHEET_NAME_8">Power - Sequencing</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">CHECKED</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Sienkiewicz_TOUCH.kicad_sch</source>
         <comment number="1" value=""/>
@@ -162,7 +166,7 @@ Added
       <title_block>
         <title>Block Diagram</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -180,7 +184,7 @@ Added
       <title_block>
         <title>Project Architecture</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -198,7 +202,7 @@ Added
       <title_block>
         <title>USB connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Section A - USB connector.kicad_sch</source>
         <comment number="1" value=""/>
@@ -216,7 +220,7 @@ Added
       <title_block>
         <title>uC &amp; prog connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Section B - uC.kicad_sch</source>
         <comment number="1" value=""/>
@@ -234,7 +238,7 @@ Added
       <title_block>
         <title>Touch Sensor</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Section C - Touch sensor.kicad_sch</source>
         <comment number="1" value=""/>
@@ -270,7 +274,7 @@ Added
       <title_block>
         <title>Power - Sequencing</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -288,7 +292,7 @@ Added
       <title_block>
         <title>Revision History</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.0+ (Unreleased)</rev>
+        <rev>2.0.1</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
