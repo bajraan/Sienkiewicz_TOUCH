@@ -17,9 +17,9 @@
 
 5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
-    <textvar name="BOARD_NAME">TOUCH</textvar>
+    <textvar name="BOARD_NAME">3ART12 TOUCH</textvar>
     <textvar name="COMPANY">BaJRan imgaginary industries</textvar>
-    <textvar name="DESIGNER">Pawel Baran</textvar>
+    <textvar name="DESIGNER">Paweł Baran</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
 
 1)	FABRICATE PER IPC-6012A CLASS 2.
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">a82ce84</textvar>
+    <textvar name="GIT_HASH_PCB">d886bbc</textvar>
     <textvar name="GIT_HASH_SCH">6405aa0</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
@@ -94,8 +94,8 @@ Changed
 -   Modified silkscreen look, by adding bigger QR-code. small rearangment.</textvar>
     <textvar name="RELEASE_BODY_2.0.2">Version 2.0.2 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">27-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-27</textvar>
+    <textvar name="RELEASE_DATE">30-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-30</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -1166,10 +1166,10 @@ Changed
         <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="CLK" type="bidirectional"/>
+        <pin num="1" name="SDI" type="bidirectional"/>
         <pin num="2" name="VCC" type="power_in"/>
         <pin num="3" name="LATCH" type="bidirectional"/>
-        <pin num="4" name="SDI" type="bidirectional"/>
+        <pin num="4" name="CLK" type="bidirectional"/>
         <pin num="5" name="GND" type="power_in"/>
       </pins>
     </libpart>
@@ -1216,16 +1216,16 @@ Changed
   </libraries>
   <nets>
     <net code="1" name="/Project Architecture/Section B - uC/SR_CLK" class="Default">
-      <node ref="B1" pin="1" pinfunction="CLK" pintype="bidirectional"/>
-      <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="B1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
     </net>
     <net code="2" name="/Project Architecture/Section B - uC/SR_LATCH" class="Default">
       <node ref="B1" pin="3" pinfunction="LATCH" pintype="bidirectional"/>
       <node ref="U1" pin="8" pinfunction="PB1" pintype="bidirectional"/>
     </net>
     <net code="3" name="/Project Architecture/Section B - uC/SR_SDI" class="Default">
-      <node ref="B1" pin="4" pinfunction="SDI" pintype="bidirectional"/>
-      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="B1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
     <net code="4" name="/Project Architecture/Section B - uC/TT" class="Default">
       <node ref="R3" pin="1" pintype="passive"/>

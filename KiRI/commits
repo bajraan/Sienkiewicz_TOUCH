@@ -1,4 +1,6 @@
-_local_|2026-04-27|root|Local changes not committed|False|True
+_local_|2026-04-30|root|Local changes not committed|False|True
+d886bbc|2026-04-30|bajran|reassign SR signals for clean design (fixes #4)|True|True
+0715d56|2026-04-30|bajran| initial prep for SR signals reassignment (refs #4)|False|True
 a82ce84|2026-04-27|bajran|changed signal layer names for JLCPCB naming convention|False|True
 05ded56|2026-04-25|bajran|prep for 2.0.2 release|True|True
 318c1b1|2026-04-25|bajran|[pcb] fabrication layers update|False|True
@@ -17,5 +19,3 @@ f8524e9|2026-04-24|bajran|file refresh|False|True
 6c64101|2026-04-18|bajran|bom update, qr-code added|True|True
 114b74e|2026-04-18|bajran|[CFG] Configuration update, added bom information fields|True|False
 3e59012|2026-04-17|bajran|refresh|False|True
-452c8d7|2026-04-17|bajran|screw interface update - changed pinout|True|True
-edd84a5|2026-04-16|bajran|[sch] update touch sensor section|True|True
