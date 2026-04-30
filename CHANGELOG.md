@@ -6,6 +6,12 @@
 
 ### Changed
 
+-   B-B connector maping changes, CLK and SDI swapped (fixes #4)
+
+## [2.0.2] - 2026-04-26
+
+### Changed
+
 -   Modified silkscreen look
 -   Fabrication layers update
 

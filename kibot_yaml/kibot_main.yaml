@@ -558,10 +558,10 @@ definitions:
   # Metadata ===================================================================
 
   PROJECT_NAME: Sienkiewicz
-  BOARD_NAME: TOUCH
+  BOARD_NAME: 3ART12 TOUCH
 
   COMPANY: BaJRan imgaginary industries
-  DESIGNER: Pawel Baran
+  DESIGNER: Paweł Baran
 
   LOGO: 'Logos/dummy_logo.png'
   GIT_URL: 'https://github.com/nguyen-v/KDT_Hierarchical_KiBot'

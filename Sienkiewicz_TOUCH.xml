@@ -17,9 +17,9 @@
 
 5)	DOT IDENTIFIES PIN #1 LOCATION AND DEVICE ORIENTATION
 	WHEN VIEWED FROM THE TOP.</textvar>
-    <textvar name="BOARD_NAME">TOUCH</textvar>
+    <textvar name="BOARD_NAME">3ART12 TOUCH</textvar>
     <textvar name="COMPANY">BaJRan imgaginary industries</textvar>
-    <textvar name="DESIGNER">Pawel Baran</textvar>
+    <textvar name="DESIGNER">Paweł Baran</textvar>
     <textvar name="FABRICATION_NOTES">FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)
 
 1)	FABRICATE PER IPC-6012A CLASS 2.
@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">0f63b6c</textvar>
-    <textvar name="GIT_HASH_SCH">0f63b6c</textvar>
+    <textvar name="GIT_HASH_PCB">d886bbc</textvar>
+    <textvar name="GIT_HASH_SCH">6405aa0</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -99,18 +99,20 @@ Changed
 -   Modified silkscreen look
 
 -   Fabrication layers update</textvar>
+    <textvar name="RELEASE_BODY_2.1.0">Version 2.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">25-Apr-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-04-25</textvar>
+    <textvar name="RELEASE_DATE">30-Apr-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-04-30</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-04-24</textvar>
     <textvar name="RELEASE_TITLE_2.0.1">Version 2.0.1 - 2026-04-25</textvar>
-    <textvar name="RELEASE_TITLE_2.0.2">Version 2.0.2 - 2026-04-25</textvar>
+    <textvar name="RELEASE_TITLE_2.0.2">Version 2.0.2 - 2026-04-26</textvar>
+    <textvar name="RELEASE_TITLE_2.1.0">Version 2.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.0.2</textvar>
+    <textvar name="REVISION">2.0.1+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -151,12 +153,12 @@ Changed
     <textvar name="SHEET_NAME_7">Section D - Shift Register screw interface</textvar>
     <textvar name="SHEET_NAME_8">Power - Sequencing</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sienkiewicz_TOUCH.kicad_sch</source>
         <comment number="1" value=""/>
@@ -174,7 +176,7 @@ Changed
       <title_block>
         <title>Block Diagram</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -192,7 +194,7 @@ Changed
       <title_block>
         <title>Project Architecture</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -210,7 +212,7 @@ Changed
       <title_block>
         <title>USB connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section A - USB connector.kicad_sch</source>
         <comment number="1" value=""/>
@@ -228,7 +230,7 @@ Changed
       <title_block>
         <title>uC &amp; prog connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section B - uC.kicad_sch</source>
         <comment number="1" value=""/>
@@ -246,7 +248,7 @@ Changed
       <title_block>
         <title>Touch Sensor</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section C - Touch sensor.kicad_sch</source>
         <comment number="1" value=""/>
@@ -282,7 +284,7 @@ Changed
       <title_block>
         <title>Power - Sequencing</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -300,7 +302,7 @@ Changed
       <title_block>
         <title>Revision History</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.0.2</rev>
+        <rev>2.0.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
@@ -1172,10 +1174,10 @@ Changed
         <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="CLK" type="bidirectional"/>
+        <pin num="1" name="SDI" type="bidirectional"/>
         <pin num="2" name="VCC" type="power_in"/>
         <pin num="3" name="LATCH" type="bidirectional"/>
-        <pin num="4" name="SDI" type="bidirectional"/>
+        <pin num="4" name="CLK" type="bidirectional"/>
         <pin num="5" name="GND" type="power_in"/>
       </pins>
     </libpart>
@@ -1222,16 +1224,16 @@ Changed
   </libraries>
   <nets>
     <net code="1" name="/Project Architecture/Section B - uC/SR_CLK" class="Default">
-      <node ref="B1" pin="1" pinfunction="CLK" pintype="bidirectional"/>
-      <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="B1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
     </net>
     <net code="2" name="/Project Architecture/Section B - uC/SR_LATCH" class="Default">
       <node ref="B1" pin="3" pinfunction="LATCH" pintype="bidirectional"/>
       <node ref="U1" pin="8" pinfunction="PB1" pintype="bidirectional"/>
     </net>
     <net code="3" name="/Project Architecture/Section B - uC/SR_SDI" class="Default">
-      <node ref="B1" pin="4" pinfunction="SDI" pintype="bidirectional"/>
-      <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="B1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
+      <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
     <net code="4" name="/Project Architecture/Section B - uC/TT" class="Default">
       <node ref="R3" pin="1" pintype="passive"/>
