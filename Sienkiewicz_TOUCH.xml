@@ -92,7 +92,14 @@ Added
 Changed
 
 -   Modified silkscreen look, by adding bigger QR-code. small rearangment.</textvar>
-    <textvar name="RELEASE_BODY_2.0.2">Version 2.0.2 not found.</textvar>
+    <textvar name="RELEASE_BODY_2.0.2">___________________________________
+
+Changed
+
+-   Modified silkscreen look
+
+-   Fabrication layers update</textvar>
+    <textvar name="RELEASE_BODY_2.1.0">Version 2.1.0 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="RELEASE_DATE">30-Apr-2026</textvar>
     <textvar name="RELEASE_DATE_NUM">2026-04-30</textvar>
@@ -102,7 +109,8 @@ Changed
     <textvar name="RELEASE_TITLE_1.1.0"/>
     <textvar name="RELEASE_TITLE_2.0.0">Version 2.0.0 - 2026-04-24</textvar>
     <textvar name="RELEASE_TITLE_2.0.1">Version 2.0.1 - 2026-04-25</textvar>
-    <textvar name="RELEASE_TITLE_2.0.2">Version 2.0.2 not found.</textvar>
+    <textvar name="RELEASE_TITLE_2.0.2">Version 2.0.2 - 2026-04-26</textvar>
+    <textvar name="RELEASE_TITLE_2.1.0">Version 2.1.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">2.0.1+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>

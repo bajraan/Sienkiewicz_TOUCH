@@ -1,4 +1,5 @@
 _local_|2026-04-30|root|Local changes not committed|False|True
+d5bac8d|2026-04-30|bajran|revision history update, prep for V2.1.0 relese|True|False
 d886bbc|2026-04-30|bajran|reassign SR signals for clean design (fixes #4)|True|True
 0715d56|2026-04-30|bajran| initial prep for SR signals reassignment (refs #4)|False|True
 a82ce84|2026-04-27|bajran|changed signal layer names for JLCPCB naming convention|False|True
@@ -18,4 +19,3 @@ f8524e9|2026-04-24|bajran|file refresh|False|True
 05546b5|2026-04-20|bajran|[sch] added R3 to prevent high current drain from cap touch chip|True|True
 6c64101|2026-04-18|bajran|bom update, qr-code added|True|True
 114b74e|2026-04-18|bajran|[CFG] Configuration update, added bom information fields|True|False
-3e59012|2026-04-17|bajran|refresh|False|True
