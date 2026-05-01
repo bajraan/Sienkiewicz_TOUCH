@@ -2,8 +2,6 @@
 
 ## [Unreleased]
 
-## [2.0.2] - 2026-04-25
-
 ### Changed
 
 -   B-B connector maping changes, CLK and SDI swapped (fixes #4)
