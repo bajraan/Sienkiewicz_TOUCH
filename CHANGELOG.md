@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-05-01
+
 ### Changed
 
 -   B-B connector maping changes, CLK and SDI swapped (fixes #4)
@@ -25,7 +27,9 @@
 
 -   First 2.0.0 Version of pcb and schematic
 
-[Unreleased]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.2...HEAD
+[Unreleased]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.1.0...HEAD
+
+[2.1.0]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.2...2.1.0
 
 [2.0.2]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.1...2.0.2
 
