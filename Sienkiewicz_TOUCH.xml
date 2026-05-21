@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">9abb11b</textvar>
-    <textvar name="GIT_HASH_SCH">9abb11b</textvar>
+    <textvar name="GIT_HASH_PCB">89d67d8</textvar>
+    <textvar name="GIT_HASH_SCH">5ba43f3</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -128,7 +128,7 @@ Added
     <textvar name="RELEASE_TITLE_2.1.0">Version 2.1.0 - 2026-05-01</textvar>
     <textvar name="RELEASE_TITLE_2.1.1">Version 2.1.1 - 2026-05-21</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.1.1</textvar>
+    <textvar name="REVISION">2.1.1+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -169,12 +169,12 @@ Added
     <textvar name="SHEET_NAME_7">Section D - Shift Register screw interface</textvar>
     <textvar name="SHEET_NAME_8">Requirements</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sienkiewicz_TOUCH.kicad_sch</source>
         <comment number="1" value=""/>
@@ -192,7 +192,7 @@ Added
       <title_block>
         <title>Block Diagram</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -210,7 +210,7 @@ Added
       <title_block>
         <title>Project Architecture</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -228,7 +228,7 @@ Added
       <title_block>
         <title>USB connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section A - USB connector.kicad_sch</source>
         <comment number="1" value=""/>
@@ -246,7 +246,7 @@ Added
       <title_block>
         <title>uC &amp; prog connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section B - uC.kicad_sch</source>
         <comment number="1" value=""/>
@@ -264,7 +264,7 @@ Added
       <title_block>
         <title>Touch Sensor</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section C - Touch sensor.kicad_sch</source>
         <comment number="1" value=""/>
@@ -300,7 +300,7 @@ Added
       <title_block>
         <title>Requirements </title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -318,7 +318,7 @@ Added
       <title_block>
         <title>Revision History</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.1</rev>
+        <rev>2.1.1+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
