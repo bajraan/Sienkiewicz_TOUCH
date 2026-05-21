@@ -3825,7 +3825,7 @@
 		)
 		(uuid "86834dea-f284-4ddb-8834-bb3196a68ddb")
 	)
-	(label "SR_SDI"
+	(label "SR_CLK"
 		(at 153.67 77.47 180)
 		(effects
 			(font
@@ -3835,7 +3835,7 @@
 		)
 		(uuid "9baae544-ca18-4628-a1b0-514499bf52f1")
 	)
-	(label "SR_CLK"
+	(label "SR_DAT"
 		(at 107.95 74.93 0)
 		(effects
 			(font
@@ -3867,7 +3867,7 @@
 		)
 		(uuid "2d5ab26b-4538-4847-97e3-31cff74c2431")
 	)
-	(hierarchical_label "SR_CLK"
+	(hierarchical_label "SR_DAT"
 		(shape output)
 		(at 105.41 74.93 180)
 		(effects
@@ -3878,7 +3878,7 @@
 		)
 		(uuid "90a5e5e4-f407-4f5f-9879-50370ef69459")
 	)
-	(hierarchical_label "SR_SDI"
+	(hierarchical_label "SR_CLK"
 		(shape output)
 		(at 156.21 77.47 0)
 		(effects

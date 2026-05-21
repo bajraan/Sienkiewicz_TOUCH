@@ -1254,7 +1254,7 @@
 				(justify right)
 			)
 		)
-		(pin "SR_SDI" input
+		(pin "SR_DAT" input
 			(at 200.66 101.6 90)
 			(uuid "bb5c6517-adff-40a2-9804-eb6887fc9bad")
 			(effects
@@ -1336,7 +1336,7 @@
 				(justify left)
 			)
 		)
-		(pin "SR_SDI" output
+		(pin "SR_DAT" output
 			(at 200.66 91.44 270)
 			(uuid "cc4d2ad3-0f0f-42ea-ad92-0e504c1c3210")
 			(effects
