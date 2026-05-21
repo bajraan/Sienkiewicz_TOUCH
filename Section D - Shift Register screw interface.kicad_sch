@@ -525,8 +525,8 @@
 		)
 	)
 	(rectangle
-		(start 101.6 63.5)
-		(end 177.8 114.3)
+		(start 99.06 66.04)
+		(end 177.8 116.84)
 		(stroke
 			(width 1)
 			(type default)
@@ -537,7 +537,7 @@
 		)
 		(uuid a7eda5b3-ccf2-41f8-9cf4-82bdfbc28993)
 	)
-	(text_box "LAYOUT NOTE:\nTemplate illustrating the mechanical connection of two PCBs using M3 screws."
+	(text_box "LAYOUT NOTE:\nSymbol that illustrating the mechanical connection of two PCBs using M3 screws."
 		(exclude_from_sim no)
 		(at 104.14 96.52 0)
 		(size 25.4 15.24)
@@ -768,7 +768,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "44827536-8a39-42a4-b5e8-d37ea1d27c33")
+			(uuid "4025bcd5-8408-439a-bc0e-369e21cdff45")
 		)
 		(instances
 			(project "Sienkiewicz_TOUCH"
@@ -833,7 +833,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "88a0ee6b-e912-41ec-8984-09857b1295b5")
+			(uuid "2b1e779f-890e-4966-a28b-5c9312c6928f")
 		)
 		(instances
 			(project "Sienkiewicz_TOUCH"
@@ -942,19 +942,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "b1babb14-2e5b-4bc5-b9b0-fa8ddb27744c")
+			(uuid "a328f787-3dfd-491a-9c97-b813f0909280")
 		)
 		(pin "5"
-			(uuid "07140b33-ca50-4a82-acc9-2bbe9e913875")
+			(uuid "286e8d50-a6e2-4273-ab5a-c51192880a02")
 		)
 		(pin "4"
-			(uuid "e7263c4d-1ae2-4df7-90fe-de91b28fdb02")
+			(uuid "40d68d52-7d83-4f13-bc27-49d75b2d3f32")
 		)
 		(pin "3"
-			(uuid "6f2af01d-110e-46ed-8c46-d47ff688e07d")
+			(uuid "a1603694-e707-4f3f-b859-4d88c26b0fcf")
 		)
 		(pin "2"
-			(uuid "fb2b515e-f632-4c42-aef2-c0568190ef0e")
+			(uuid "6e8eee8a-3a1d-4a35-acdc-a77a4b2be0fb")
 		)
 		(instances
 			(project "Sienkiewicz_TOUCH"

@@ -828,21 +828,6 @@
 		)
 		(uuid "861c9b1c-f3f7-4abd-84e4-7e4ecba3dc9e")
 	)
-	(text "Date: ${RELEASE_DATE}"
-		(exclude_from_sim no)
-		(at 220.98 237.49 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 10.16 10.16)
-				(thickness 0.6)
-				(bold yes)
-				(color 200 200 200 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "87564db8-be77-4805-a256-abae1e9d7c5b")
-	)
 	(text "27"
 		(exclude_from_sim no)
 		(at 233.68 129.54 0)
@@ -1743,7 +1728,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b")
-		(property "Sheetname" "Power - Sequencing"
+		(property "Sheetname" "Requirements"
 			(at 340.36 312.6609 0)
 			(effects
 				(font
