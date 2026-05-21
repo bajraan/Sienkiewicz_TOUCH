@@ -1,4 +1,6 @@
 _local_|2026-05-21|root|Local changes not committed|False|True
+f05d9da|2026-05-21|bajran|prep for 2.1.1 release|True|False
+5ba43f3|2026-05-21|bajran|documentation update /requirements /schematic|True|True
 6699617|2026-05-21|bajran|routing update #4|True|True
 b1c4f8e|2026-05-21|bajran|removed hierarhical vcc labels|True|False
 2195053|2026-05-21|bajran|documentation update / block diagram|True|True
@@ -17,5 +19,3 @@ c38b55f|2026-04-25|bajran|silkscreen, centered LATCH outlie on screw connector|F
 91e8099|2026-04-25|bajran|prepared for 2.0.1 release|True|False
 0d9fde7|2026-04-24|bajran|descriptions on the board update|False|True
 6563119|2026-04-24|GitHub Actions|Update Outputs (release)|False|True
-be35797|2026-04-24|bajran|moved the label to force push from local repo|True|False
-48d7015|2026-04-24|bajran|VCC and GND chierarchical labels added|True|False
