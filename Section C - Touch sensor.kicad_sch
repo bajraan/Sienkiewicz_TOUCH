@@ -1008,12 +1008,6 @@
 		(uuid "4e8ee590-2104-4536-b717-a2ea582bc988")
 	)
 	(junction
-		(at 124.46 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "783232fc-d106-4759-b459-3fd73cd368fc")
-	)
-	(junction
 		(at 127 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1142,7 +1136,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 76.2) (xy 124.46 76.2)
+			(xy 121.92 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1170,16 +1164,6 @@
 		)
 		(uuid "772275f3-f6d7-41ca-8a5a-623ea8a12eea")
 	)
-	(wire
-		(pts
-			(xy 124.46 76.2) (xy 139.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e7a65d-f2a2-4204-b300-3f2851adbb78")
-	)
 	(polyline
 		(pts
 			(xy 144.78 55.88) (xy 152.4 50.8)
@@ -1201,26 +1185,6 @@
 			(color 255 0 0 1)
 		)
 		(uuid "95a5b12e-1ddd-406a-b441-126a4f85c73a")
-	)
-	(wire
-		(pts
-			(xy 124.46 76.2) (xy 124.46 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9877a89d-e3eb-4282-9bdd-7dcc50f551dc")
-	)
-	(wire
-		(pts
-			(xy 121.92 73.66) (xy 124.46 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a91c83b8-0b1d-40b2-ad10-c7dcbcb2be82")
 	)
 	(polyline
 		(pts
@@ -3898,17 +3862,6 @@
 			"SfIVQgghTEySrxBCCGFiknyFEEIIE5PkK4QQQpiYJF8hhBDCxCT5CiGEECb2/90537gfmc6kAAAA"
 			"AElFTkSuQmCC"
 		)
-	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 121.92 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0fcd925b-336b-4c9f-8da1-3fd1761c7700")
 	)
 	(hierarchical_label "TOUCH"
 		(shape bidirectional)

@@ -586,12 +586,6 @@
 		(uuid "73fc32af-6d3e-462c-a79d-c02224ff5821")
 	)
 	(junction
-		(at 162.56 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98db1026-8206-4490-9d12-4dc0c919fd63")
-	)
-	(junction
 		(at 144.78 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -606,26 +600,6 @@
 			(type default)
 		)
 		(uuid "16f3f410-c630-4efa-8fc0-d5e3d148d72d")
-	)
-	(wire
-		(pts
-			(xy 162.56 83.82) (xy 170.18 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f415af0-ccc9-4d2c-8893-9f8b0cd88480")
-	)
-	(wire
-		(pts
-			(xy 162.56 78.74) (xy 162.56 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67cff083-af5e-451e-bf69-c09ebce5bac7")
 	)
 	(wire
 		(pts
@@ -649,24 +623,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 162.56 83.82)
+			(xy 157.48 83.82) (xy 170.18 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c7a62b9f-2e24-4e04-9c02-6c80a4472da4")
-	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 170.18 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "055a160c-818d-44f6-972b-d045022e7cb2")
 	)
 	(hierarchical_label "SR_LATCH"
 		(shape input)
@@ -690,17 +653,6 @@
 		)
 		(uuid "36b8f936-9730-4e13-82fc-1ed70836f5a3")
 	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 170.18 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4298291d-bce2-4e48-84d2-3f82c3f4d762")
-	)
 	(hierarchical_label "SR_CLK"
 		(shape input)
 		(at 132.08 88.9 180)
@@ -711,6 +663,73 @@
 			(justify right)
 		)
 		(uuid "c3d86590-08a9-4caf-8fe0-a1e33f0d42a1")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 170.18 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b1e8410-adf5-4a93-ba81-16fd09d122f6")
+		(property "Reference" "#PWR09"
+			(at 176.53 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 170.18 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19b89eb5-e529-4060-8fc9-e577e479f4c5")
+		)
+		(instances
+			(project "Sienkiewicz_TOUCH"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e6b5b6c2-a618-4a52-b3e4-5c8c8ccf687d"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -781,7 +800,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 162.56 78.74 0)
+		(at 170.18 83.82 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -789,7 +808,7 @@
 		(dnp no)
 		(uuid "a4ee186b-7c86-47bb-9fac-6eb292218d2a")
 		(property "Reference" "#PWR021"
-			(at 162.56 82.55 0)
+			(at 166.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -798,7 +817,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 162.56 73.66 90)
+			(at 175.26 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -806,7 +825,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 78.74 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 78.74 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +843,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 162.56 78.74 0)
+			(at 170.18 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
