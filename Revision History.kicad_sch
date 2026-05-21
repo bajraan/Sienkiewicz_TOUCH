@@ -40,7 +40,7 @@
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type none)
