@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.1.1] - 2026-05-21
+
 ### Changed
 
 -   B-B connector maping changes restored (fixes #4)
@@ -35,7 +37,9 @@
 
 -   First 2.0.0 Version of pcb and schematic
 
-[Unreleased]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.1.0...HEAD
+[Unreleased]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.1.1...HEAD
+
+[2.1.1]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.1.0...2.1.1
 
 [2.1.0]: https://github.com/bajraan/Sienkiewicz_TOUCH/compare/2.0.2...2.1.0
 
