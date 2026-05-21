@@ -33,6 +33,28 @@
 		)
 		(uuid "0c062e2b-2be1-4307-b752-045c211787f4")
 	)
+	(text_box "${RELEASE_BODY_2.1.1}"
+		(exclude_from_sim no)
+		(at 88.9 34.29 0)
+		(size 58.42 35.56)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "1478e8fe-b825-4028-91b2-77248fa3cb8f")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 80.01 16.51 0)
@@ -78,10 +100,33 @@
 		)
 		(uuid "212b625e-4169-46f2-a2fc-afc6cbef07cd")
 	)
+	(text_box "${RELEASE_TITLE_2.1.1}"
+		(exclude_from_sim no)
+		(at 86.36 31.75 0)
+		(size 57.15 7.62)
+		(margins 1.4287 1.4287 1.4287 1.4287)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "43d51fba-aa3b-4711-adee-b787d00f8e4f")
+	)
 	(text_box "${RELEASE_BODY_2.1.0}"
 		(exclude_from_sim no)
 		(at 22.86 121.92 0)
-		(size 58.42 71.12)
+		(size 58.42 35.56)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
 			(width -0.0001)

@@ -5,7 +5,7 @@
 	(uuid "26e99a33-043b-499d-a26e-816ff79b487a")
 	(paper "A4")
 	(title_block
-		(title "Power - Sequencing")
+		(title "Requirements ")
 		(date "2025-01-12")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -27,7 +27,7 @@
 	)
 	(text_box "Powered by USB-C connector with general mode"
 		(exclude_from_sim no)
-		(at 166.37 143.51 0)
+		(at 166.37 113.03 0)
 		(size 115.57 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -48,30 +48,7 @@
 		)
 		(uuid "03e32fd6-47a4-40f0-b62d-fa777503a76f")
 	)
-	(text_box "microcontroler Attiny204 with package"
-		(exclude_from_sim no)
-		(at 166.37 74.93 0)
-		(size 115.57 7.62)
-		(margins 1.7145 1.7145 1.7145 1.7145)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 1.524 1.524)
-				(color 0 0 127 1)
-			)
-			(justify left top)
-		)
-		(uuid "0b908f96-c8d9-4d34-8964-486d34792bea")
-	)
-	(text_box "IC: Cap sensor ||   SOT-23-6 package PITCH: 0.95\nIC: Attiny204  ||   SOIC-14_3.9x8.7mm_P1.27mm  PITCH 1.27"
+	(text_box "IC: Cap sensor	: AT42QT1012	: SOT-23-6 package 			: PITCH: 0.95\nIC: uC			: Attiny-204	: SOIC-14_3.9x8.7mm_P1.27mm : PITCH 1.27"
 		(exclude_from_sim no)
 		(at 166.37 59.69 0)
 		(size 115.57 7.62)
@@ -94,7 +71,7 @@
 		)
 		(uuid "10905b22-d2b4-4ecd-b341-d2f17d61034e")
 	)
-	(text_box "Simplified electronic project designed to verify practical skills in electrical engineering, PCB design, electronic assembly, embedded software implementation, and programming within the Microchip Technology development environment."
+	(text_box "Simplified electronic project designed to verify practical skills in electrical engineering, PCB design, electronic assembly, embedded software implementation, and programming within the Microchip Technology development environment. Simple powering."
 		(exclude_from_sim no)
 		(at 50.8 38.1 0)
 		(size 93.98 15.24)
@@ -117,9 +94,32 @@
 		)
 		(uuid "1536c8fb-cd81-4a78-a2c5-f5ea31069305")
 	)
-	(text_box "The project shall contain very small integrated circuits."
+	(text_box "Shall contain at least two status led."
 		(exclude_from_sim no)
-		(at 34.29 67.31 0)
+		(at 34.29 97.79 0)
+		(size 110.49 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "1ad4ecf9-12f5-4c03-9198-4916bb2331da")
+	)
+	(text_box "The project shall contain very small integrated circuits.\nPitch less than 1mm"
+		(exclude_from_sim no)
+		(at 34.29 59.69 0)
 		(size 110.49 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -162,6 +162,52 @@
 			(justify left top)
 		)
 		(uuid "26cdc94c-9baf-4c54-9025-d52b74bae34f")
+	)
+	(text_box "Status LED'S : LED1, LED2."
+		(exclude_from_sim no)
+		(at 166.37 97.79 0)
+		(size 115.57 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "2dddab97-543d-430a-87aa-52a57e381db5")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 147.32 135.89 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "3174bde7-4608-4302-8d55-5a7a9b0fcfcd")
 	)
 	(text_box "6"
 		(exclude_from_sim no)
@@ -209,6 +255,52 @@
 		)
 		(uuid "41a8d078-2d5f-47c9-bb9c-73d91bdc1b2a")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 34.29 128.27 0)
+		(size 110.49 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "45f6759d-a730-4909-85f3-ffdab9ff5ae3")
+	)
+	(text_box "MEET"
+		(exclude_from_sim no)
+		(at 147.32 90.17 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "48918422-b068-4ef8-9fd3-94c6cf6091ba")
+	)
 	(text_box "MEET"
 		(exclude_from_sim no)
 		(at 147.32 67.31 0)
@@ -232,9 +324,32 @@
 		)
 		(uuid "490fe6de-2153-4a94-8447-7f87f5d33dcd")
 	)
-	(text_box "Easy way to power it up"
+	(text_box "MEET"
 		(exclude_from_sim no)
-		(at 34.29 143.51 0)
+		(at 147.32 97.79 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "5513ac40-1483-4fbe-8fd7-43d72bf48501")
+	)
+	(text_box "Shall be easy to power up."
+		(exclude_from_sim no)
+		(at 34.29 113.03 0)
 		(size 110.49 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -278,9 +393,32 @@
 		)
 		(uuid "61b31cc8-b54d-42b3-b63f-3abbf49a8516")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 166.37 120.65 0)
+		(size 115.57 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "62397e5c-745b-477b-93f9-6789e14c8692")
+	)
 	(text_box "10"
 		(exclude_from_sim no)
-		(at 15.24 135.89 0)
+		(at 15.24 128.27 0)
 		(size 16.51 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -370,6 +508,29 @@
 		)
 		(uuid "754c13c0-bd8c-4c31-a0bb-e7b872712d18")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 166.37 135.89 0)
+		(size 115.57 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "76983064-323a-43d2-a68a-687cc172ab29")
+	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
 		(at 80.01 16.51 0)
@@ -416,6 +577,52 @@
 		)
 		(uuid "8691baf7-b2a0-482c-8487-d5eaca91fa8a")
 	)
+	(text_box "IC: Shift register 	: STP16CP05MTR	: SO-24 				: 24 pins\nIC: uC 				: Attiny204    	: SOIC-14_3.9x8.7mm 	: 14 pins  "
+		(exclude_from_sim no)
+		(at 166.37 74.93 0)
+		(size 115.57 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "88b1a94f-32c2-4962-9260-451b0b164dcc")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 34.29 135.89 0)
+		(size 110.49 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "91c155fe-9fc6-4c5a-a8c8-2de7e51ae688")
+	)
 	(text_box "3"
 		(exclude_from_sim no)
 		(at 15.24 74.93 0)
@@ -438,6 +645,29 @@
 			)
 		)
 		(uuid "947047a9-e51e-4ea4-89fa-72e03eacdf9a")
+	)
+	(text_box "It is possible to program the device using pickit-4 and MPLAB software."
+		(exclude_from_sim no)
+		(at 166.37 90.17 0)
+		(size 115.57 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "95344bb3-4457-4b54-85fa-58a6b5b5e9ed")
 	)
 	(text_box "MAIN OBJECTIVE"
 		(exclude_from_sim no)
@@ -462,9 +692,32 @@
 		)
 		(uuid "9558a157-0b2a-4a97-9577-340223295304")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 166.37 128.27 0)
+		(size 115.57 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "99760824-8ab9-428d-b5f4-2c76ac6c5583")
+	)
 	(text_box "The user can change the light effect using a capacitive touch sensor."
 		(exclude_from_sim no)
-		(at 166.37 135.89 0)
+		(at 166.37 105.41 0)
 		(size 115.57 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -484,6 +737,29 @@
 			(justify left top)
 		)
 		(uuid "a38c6100-f468-4f62-80fe-be2f49a7606a")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 147.32 128.27 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "a4f5e29b-e854-4c37-ab71-8c032b43c788")
 	)
 	(text_box "8"
 		(exclude_from_sim no)
@@ -533,7 +809,7 @@
 	)
 	(text_box "MEET"
 		(exclude_from_sim no)
-		(at 147.32 135.89 0)
+		(at 147.32 105.41 0)
 		(size 16.51 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -553,6 +829,29 @@
 			)
 		)
 		(uuid "b8697b16-972b-452e-bf4d-11d8847ad647")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 147.32 120.65 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "bd404b45-0ca1-400c-9c12-d615a49383a3")
 	)
 	(text_box "The project shall contain multi-pin integrated circuits to verify soldering precision.\n"
 		(exclude_from_sim no)
@@ -579,7 +878,7 @@
 	)
 	(text_box "The project shall contain 0805 SMT passives components."
 		(exclude_from_sim no)
-		(at 34.29 59.69 0)
+		(at 34.29 67.31 0)
 		(size 110.49 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -646,9 +945,32 @@
 		)
 		(uuid "c98ee28e-0642-4751-9ef0-dd2cfb9f6854")
 	)
+	(text_box "Possibility to program using Microchip enviroment and pickit-4 programmer."
+		(exclude_from_sim no)
+		(at 34.29 90.17 0)
+		(size 110.49 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "cc3bed4f-7baf-4474-a949-b600de0247a7")
+	)
 	(text_box "11"
 		(exclude_from_sim no)
-		(at 15.24 143.51 0)
+		(at 15.24 135.89 0)
 		(size 16.51 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -715,6 +1037,29 @@
 		)
 		(uuid "eb056174-82df-4140-aab7-28051254cac7")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 34.29 120.65 0)
+		(size 110.49 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "ed6b9131-334d-4931-b3c2-b743040ea914")
+	)
 	(text_box "MEET"
 		(exclude_from_sim no)
 		(at 147.32 59.69 0)
@@ -740,7 +1085,7 @@
 	)
 	(text_box "MEET"
 		(exclude_from_sim no)
-		(at 147.32 143.51 0)
+		(at 147.32 113.03 0)
 		(size 16.51 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
@@ -761,9 +1106,9 @@
 		)
 		(uuid "f0da5209-5c50-48a8-b226-8568efd31633")
 	)
-	(text_box "shall be able to interact with user "
+	(text_box "Shall be able to interact with user."
 		(exclude_from_sim no)
-		(at 34.29 135.89 0)
+		(at 34.29 105.41 0)
 		(size 110.49 7.62)
 		(margins 1.7145 1.7145 1.7145 1.7145)
 		(stroke
