@@ -1,2 +1,21 @@
-_local_|2026-05-01|root|Local changes not committed|False|True
-711f84c|2026-05-01|bajraan|Update Outputs|True|True
+_local_|2026-05-21|root|Local changes not committed|False|True
+e5dca8e|2026-05-21|bajran|2.1.1 fixes #4|True|False
+f05d9da|2026-05-21|bajran|prep for 2.1.1 release|True|False
+5ba43f3|2026-05-21|bajran|documentation update /requirements /schematic|True|True
+6699617|2026-05-21|bajran|routing update #4|True|True
+b1c4f8e|2026-05-21|bajran|removed hierarhical vcc labels|True|False
+2195053|2026-05-21|bajran|documentation update / block diagram|True|True
+dafac34|2026-05-01|GitHub Actions|Update Outputs (release)|False|True
+138ade8|2026-04-30|bajran|revisiion history.kicad_sch update|True|False
+8f7b502|2026-04-30|bajran|revisiion history.kicad_sch update|True|False
+d5bac8d|2026-04-30|bajran|revision history update, prep for V2.1.0 relese|True|False
+d886bbc|2026-04-30|bajran|reassign SR signals for clean design (fixes #4)|True|True
+0715d56|2026-04-30|bajran| initial prep for SR signals reassignment (refs #4)|False|True
+a82ce84|2026-04-27|bajran|changed signal layer names for JLCPCB naming convention|False|True
+05ded56|2026-04-25|bajran|prep for 2.0.2 release|True|True
+318c1b1|2026-04-25|bajran|[pcb] fabrication layers update|False|True
+74f1f5e|2026-04-25|bajran|[pcb] silkscreen, version bump to 2.0.1|False|True
+c38b55f|2026-04-25|bajran|silkscreen, centered LATCH outlie on screw connector|False|True
+7961147|2026-04-25|GitHub Actions|Update Outputs (release)|False|True
+91e8099|2026-04-25|bajran|prepared for 2.0.1 release|True|False
+0d9fde7|2026-04-24|bajran|descriptions on the board update|False|True

@@ -61,7 +61,7 @@
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
 	BOARD SIZE				38.000 × 38.000 mm
-	BOARD THICKNESS		1.660 mm
+	BOARD THICKNESS		1.610 mm
 	TRACE WIDTH			0.200 mm
 	TRACE TO TRACE		-0.000 mm
 	MIN. HOLE (PTH)			0.250 mm
@@ -74,8 +74,8 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">711f84c</textvar>
-    <textvar name="GIT_HASH_SCH">711f84c</textvar>
+    <textvar name="GIT_HASH_PCB">5ba43f3</textvar>
+    <textvar name="GIT_HASH_SCH">5ba43f3</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -104,9 +104,10 @@ Changed
 Changed
 
 -   B-B connector maping changes, CLK and SDI swapped (fixes #4)</textvar>
+    <textvar name="RELEASE_BODY_2.1.1">Version 2.1.1 not found.</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">01-May-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-05-01</textvar>
+    <textvar name="RELEASE_DATE">21-May-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-05-21</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -115,8 +116,9 @@ Changed
     <textvar name="RELEASE_TITLE_2.0.1">Version 2.0.1 - 2026-04-25</textvar>
     <textvar name="RELEASE_TITLE_2.0.2">Version 2.0.2 - 2026-04-26</textvar>
     <textvar name="RELEASE_TITLE_2.1.0">Version 2.1.0 - 2026-05-01</textvar>
+    <textvar name="RELEASE_TITLE_2.1.1">Version 2.1.1 not found.</textvar>
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="REVISION">2.1.0</textvar>
+    <textvar name="REVISION">2.1.0+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
     <textvar name="SHEET_NAME_10">......................................</textvar>
     <textvar name="SHEET_NAME_11">......................................</textvar>
@@ -155,14 +157,14 @@ Changed
     <textvar name="SHEET_NAME_5">Section B - uC</textvar>
     <textvar name="SHEET_NAME_6">Section C - Touch sensor</textvar>
     <textvar name="SHEET_NAME_7">Section D - Shift Register screw interface</textvar>
-    <textvar name="SHEET_NAME_8">Power - Sequencing</textvar>
+    <textvar name="SHEET_NAME_8">Requirements</textvar>
     <textvar name="SHEET_NAME_9">Revision History</textvar>
-    <textvar name="VARIANT">RELEASED</textvar>
+    <textvar name="VARIANT">CHECKED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Sienkiewicz_TOUCH.kicad_sch</source>
         <comment number="1" value=""/>
@@ -180,7 +182,7 @@ Changed
       <title_block>
         <title>Block Diagram</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Block Diagram.kicad_sch</source>
         <comment number="1" value=""/>
@@ -198,7 +200,7 @@ Changed
       <title_block>
         <title>Project Architecture</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Project Architecture.kicad_sch</source>
         <comment number="1" value=""/>
@@ -216,7 +218,7 @@ Changed
       <title_block>
         <title>USB connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section A - USB connector.kicad_sch</source>
         <comment number="1" value=""/>
@@ -234,7 +236,7 @@ Changed
       <title_block>
         <title>uC &amp; prog connector</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section B - uC.kicad_sch</source>
         <comment number="1" value=""/>
@@ -252,7 +254,7 @@ Changed
       <title_block>
         <title>Touch Sensor</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Section C - Touch sensor.kicad_sch</source>
         <comment number="1" value=""/>
@@ -284,11 +286,11 @@ Changed
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/Power - Sequencing/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
+    <sheet number="8" name="/Requirements/" tstamps="/5fb05893-0da3-4f58-a52b-cb6d6f4cb80b/">
       <title_block>
-        <title>Power - Sequencing</title>
+        <title>Requirements </title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Power - Sequencing.kicad_sch</source>
         <comment number="1" value=""/>
@@ -306,7 +308,7 @@ Changed
       <title_block>
         <title>Revision History</title>
         <company>BaJRan imgaginary industries</company>
-        <rev>2.1.0</rev>
+        <rev>2.1.0+ (Unreleased)</rev>
         <date>Date2</date>
         <source>Revision History.kicad_sch</source>
         <comment number="1" value=""/>
@@ -601,7 +603,7 @@ Changed
       <tstamps>bef6fc21-5e73-467e-b23f-0c4247745e92</tstamps>
     </comp>
     <comp ref="J1">
-      <value>Conn_ARM_SWD_TagConnect_TC2030-NL</value>
+      <value>TC2030-NL</value>
       <footprint>Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical</footprint>
       <datasheet>https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf</datasheet>
       <description>Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs</description>
@@ -1178,10 +1180,10 @@ Changed
         <field name="Description"/>
       </fields>
       <pins>
-        <pin num="1" name="SDI" type="bidirectional"/>
+        <pin num="1" name="CLK" type="bidirectional"/>
         <pin num="2" name="VCC" type="power_in"/>
         <pin num="3" name="LATCH" type="bidirectional"/>
-        <pin num="4" name="CLK" type="bidirectional"/>
+        <pin num="4" name="DAT" type="bidirectional"/>
         <pin num="5" name="GND" type="power_in"/>
       </pins>
     </libpart>
@@ -1228,16 +1230,16 @@ Changed
   </libraries>
   <nets>
     <net code="1" name="/Project Architecture/Section B - uC/SR_CLK" class="Default">
-      <node ref="B1" pin="4" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="B1" pin="1" pinfunction="CLK" pintype="bidirectional"/>
+      <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/Project Architecture/Section B - uC/SR_DAT" class="Default">
+      <node ref="B1" pin="4" pinfunction="DAT" pintype="bidirectional"/>
       <node ref="U1" pin="9" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="2" name="/Project Architecture/Section B - uC/SR_LATCH" class="Default">
+    <net code="3" name="/Project Architecture/Section B - uC/SR_LATCH" class="Default">
       <node ref="B1" pin="3" pinfunction="LATCH" pintype="bidirectional"/>
       <node ref="U1" pin="8" pinfunction="PB1" pintype="bidirectional"/>
-    </net>
-    <net code="3" name="/Project Architecture/Section B - uC/SR_SDI" class="Default">
-      <node ref="B1" pin="1" pinfunction="SDI" pintype="bidirectional"/>
-      <node ref="U1" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
     <net code="4" name="/Project Architecture/Section B - uC/TT" class="Default">
       <node ref="R3" pin="1" pintype="passive"/>
@@ -1276,17 +1278,17 @@ Changed
       <node ref="U2" pin="2" pinfunction="VSS" pintype="power_in"/>
       <node ref="U2" pin="6" pinfunction="TIME" pintype="input"/>
     </net>
-    <net code="9" name="LED1" class="Default">
+    <net code="9" name="Net-(D1-A)" class="Default">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="4" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="10" name="LED2" class="Default">
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
-    </net>
-    <net code="11" name="Net-(D1-K)" class="Default">
+    <net code="10" name="Net-(D1-K)" class="Default">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D2-A)" class="Default">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PA7" pintype="bidirectional"/>
     </net>
     <net code="12" name="Net-(D2-K)" class="Default">
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>

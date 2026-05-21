@@ -690,7 +690,7 @@
         "name": "Shift Register",
         "pcb_color": "rgb(0, 255, 0)",
         "priority": 1,
-        "schematic_color": "rgb(0, 255, 0)",
+        "schematic_color": "rgb(0, 132, 0)",
         "wire_width": 6
       },
       {
@@ -699,7 +699,7 @@
         "name": "TT_Signal",
         "pcb_color": "rgb(255, 255, 0)",
         "priority": 0,
-        "schematic_color": "rgb(255, 255, 0)",
+        "schematic_color": "rgb(72, 72, 0)",
         "wire_width": 6
       }
     ],
@@ -1153,7 +1153,7 @@
     ],
     [
       "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
-      "Power - Sequencing"
+      "Requirements"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -1165,9 +1165,9 @@
     "BOARD_NAME": "3ART12 TOUCH",
     "COMPANY": "BaJRan imgaginary industries",
     "DESIGNER": "Pawe\u0142 Baran",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY BAJRAN IMGAGINARY INDUSTRIES.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t38.000 \u00d7 38.000 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t-0.000 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t1.000 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
-    "GIT_HASH_PCB": "711f84c",
-    "GIT_HASH_SCH": "711f84c",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: IMMERSION GOLD\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY BAJRAN IMGAGINARY INDUSTRIES.\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t38.000 \u00d7 38.000 mm\n\tBOARD THICKNESS\t\t1.610 mm\n\tTRACE WIDTH\t\t\t0.200 mm\n\tTRACE TO TRACE\t\t-0.000 mm\n\tMIN. HOLE (PTH)\t\t\t0.250 mm\n\tMIN. HOLE (NPTH)\t\t1.000 mm\n\tANNULAR RING\t\t\t0.150 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "GIT_HASH_PCB": "5ba43f3",
+    "GIT_HASH_SCH": "5ba43f3",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "Sienkiewicz",
     "RELEASE_BODY_1.0.0": "",
@@ -1178,9 +1178,10 @@
     "RELEASE_BODY_2.0.1": "___________________________________\n\nChanged\n\n-   Modified silkscreen look, by adding bigger QR-code. small rearangment.",
     "RELEASE_BODY_2.0.2": "___________________________________\n\nChanged\n\n-   Modified silkscreen look\n\n-   Fabrication layers update",
     "RELEASE_BODY_2.1.0": "___________________________________\n\nChanged\n\n-   B-B connector maping changes, CLK and SDI swapped (fixes #4)",
+    "RELEASE_BODY_2.1.1": "Version 2.1.1 not found.",
     "RELEASE_BODY_UNRELEASED": "Version Unreleased not found.",
-    "RELEASE_DATE": "01-May-2026",
-    "RELEASE_DATE_NUM": "2026-05-01",
+    "RELEASE_DATE": "21-May-2026",
+    "RELEASE_DATE_NUM": "2026-05-21",
     "RELEASE_TITLE_1.0.0": "",
     "RELEASE_TITLE_1.0.1": "",
     "RELEASE_TITLE_1.0.2": "",
@@ -1189,8 +1190,9 @@
     "RELEASE_TITLE_2.0.1": "Version 2.0.1 - 2026-04-25",
     "RELEASE_TITLE_2.0.2": "Version 2.0.2 - 2026-04-26",
     "RELEASE_TITLE_2.1.0": "Version 2.1.0 - 2026-05-01",
+    "RELEASE_TITLE_2.1.1": "Version 2.1.1 not found.",
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
-    "REVISION": "2.1.0",
+    "REVISION": "2.1.0+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
     "SHEET_NAME_10": "......................................",
     "SHEET_NAME_11": "......................................",
@@ -1229,8 +1231,8 @@
     "SHEET_NAME_5": "Section B - uC",
     "SHEET_NAME_6": "Section C - Touch sensor",
     "SHEET_NAME_7": "Section D - Shift Register screw interface",
-    "SHEET_NAME_8": "Power - Sequencing",
+    "SHEET_NAME_8": "Requirements",
     "SHEET_NAME_9": "Revision History",
-    "VARIANT": "RELEASED"
+    "VARIANT": "CHECKED"
   }
 }
