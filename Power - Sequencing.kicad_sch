@@ -94,6 +94,29 @@
 		)
 		(uuid "1536c8fb-cd81-4a78-a2c5-f5ea31069305")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 166.37 143.51 0)
+		(size 115.57 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "160b4fc9-58fc-428e-988c-aa3c69774c16")
+	)
 	(text_box "Shall contain at least two status led."
 		(exclude_from_sim no)
 		(at 34.29 97.79 0)
@@ -208,6 +231,29 @@
 			)
 		)
 		(uuid "3174bde7-4608-4302-8d55-5a7a9b0fcfcd")
+	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 34.29 143.51 0)
+		(size 110.49 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.524 1.524)
+				(color 0 0 127 1)
+			)
+			(justify left top)
+		)
+		(uuid "39d08f5b-417b-4718-9392-1825acff8744")
 	)
 	(text_box "6"
 		(exclude_from_sim no)
@@ -370,6 +416,29 @@
 		)
 		(uuid "5785eddb-7716-4c00-81e0-bf5b1d01a176")
 	)
+	(text_box ""
+		(exclude_from_sim no)
+		(at 147.32 143.51 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "5f8c5b0e-3d4c-4ec0-bb07-17469d99cfe7")
+	)
 	(text_box "1"
 		(exclude_from_sim no)
 		(at 15.24 59.69 0)
@@ -461,6 +530,29 @@
 			)
 		)
 		(uuid "63b427cb-ab90-41ab-9bf8-794ee1fdb8ae")
+	)
+	(text_box "12"
+		(exclude_from_sim no)
+		(at 15.24 143.51 0)
+		(size 16.51 7.62)
+		(margins 1.7145 1.7145 1.7145 1.7145)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.286 2.286)
+				(bold yes)
+				(color 0 0 127 1)
+			)
+		)
+		(uuid "69640371-6eb7-4b88-9c7a-7c5f375459ea")
 	)
 	(text_box "The project shall contain an UPDI programming interface for firmware upload and debugging."
 		(exclude_from_sim no)
