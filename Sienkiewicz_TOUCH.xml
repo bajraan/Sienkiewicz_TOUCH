@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">89d67d8</textvar>
+    <textvar name="GIT_HASH_PCB">b6fa39a</textvar>
     <textvar name="GIT_HASH_SCH">5ba43f3</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">Sienkiewicz</textvar>
@@ -116,8 +116,8 @@ Added
 
 -   requirements section added for documentation</textvar>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">21-May-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-05-21</textvar>
+    <textvar name="RELEASE_DATE">08-Jun-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-06-08</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
