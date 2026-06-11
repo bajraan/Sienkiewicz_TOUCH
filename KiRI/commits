@@ -1,4 +1,5 @@
 _local_|2026-06-11|root|Local changes not committed|False|True
+efa4b9e|2026-06-11|bajran|schematid update - block diagram fix|True|False
 525a2bc|2026-06-11|bajran|schematic update|True|False
 b6fa39a|2026-06-08|bajran|readme.md update|False|True
 89d67d8|2026-05-21|GitHub Actions|Update Outputs (release)|False|True
@@ -18,4 +19,3 @@ a82ce84|2026-04-27|bajran|changed signal layer names for JLCPCB naming conventio
 05ded56|2026-04-25|bajran|prep for 2.0.2 release|True|True
 318c1b1|2026-04-25|bajran|[pcb] fabrication layers update|False|True
 74f1f5e|2026-04-25|bajran|[pcb] silkscreen, version bump to 2.0.1|False|True
-c38b55f|2026-04-25|bajran|silkscreen, centered LATCH outlie on screw connector|False|True
